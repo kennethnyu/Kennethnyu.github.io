@@ -1,29 +1,28 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1 class="text-center">Welcome to Logs Ark</h1>
-    <h1 class="text-center">Maintenance till end of Mar30</h1>
-    <hr>
-
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        DPS Charts
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Sorted by Min</a></li>
-        <li><a class="dropdown-item" href="#">Sorted by Q25</a></li>
-        <li><a class="dropdown-item" href="#">Sorted by Median</a></li>
-        <li><a class="dropdown-item" href="dps_charts_sorted_by_q75.html">Sorted by Q75</a></li>
-        <li><a class="dropdown-item" href="#">Sorted by Max</a></li>
-      </ul>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>DPS Charts Sorted by Q75</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   </head>
+   <body>
+      <h1 class="text-center">Logs Ark</h1>
+      <div class="container text-center">
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DPS Charts
+            </button>
+            <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="dps_charts_sorted_by_min.html">Sorted by Min</a></li>
+               <li><a class="dropdown-item" href="dps_charts_sorted_by_q25.html">Sorted by Q25</a></li>
+               <li><a class="dropdown-item" href="dps_charts_sorted_by_median.html">Sorted by Median</a></li>
+               <li><a class="dropdown-item" href="dps_charts_sorted_by_q75.html">Sorted by Q75</a></li>
+               <li><a class="dropdown-item" href="dps_charts_sorted_by_max.html">Sorted by Max</a></li>
+            </ul>
+         </div>
+      </div>
+      <hr>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   </body>
 </html>
