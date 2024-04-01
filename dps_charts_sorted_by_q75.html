@@ -14,8 +14,9 @@
         $('.nav-link').click(function(){    
           var divId = $(this).attr('href');
            $('html, body').animate({
-            scrollTop: $(divId).offset().top - 541
+            scrollTop: $(divId).offset().top - 54
           }, 100);
+           console.log($(divId));
         });
       });
       </script>
