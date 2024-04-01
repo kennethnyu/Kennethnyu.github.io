@@ -8,8 +8,14 @@
       <style>
          body {padding-top: 56px;}
          .anchor {
-           top: -65px;
-           left: 0px;
+             display: block;
+             position: absolute;
+             width: 0;
+             height: 0;
+             z-index: -1;
+             top: -56px;
+             left: 0;
+             visibility: hidden;
          }
       </style>
    </head>
@@ -51,7 +57,7 @@
       
       <h1 class="text-center">DPS Charts Sorted by Q75</h1>      
       
-      <div id="guardian_raids" class="container text-center">
+      <div id="guardian_raids" class="container text-center anchor">
          <div class="p-3 border rounded" style="--bs-border-width: 10px">
             <h2 class="text-center anchor">
             Guardian Raids</h1>
