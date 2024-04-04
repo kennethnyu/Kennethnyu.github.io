@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html data-bs-theme="dark">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>DPS Charts Sorted by Median</title>
+      <title>Home</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="http://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
       <style>
          html {scroll-padding-top: 56px;}
          body {padding-top: 56px;}
@@ -13,11 +14,47 @@
    <!-- Google tag (gtag.js) -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95BF1EHTG5"></script>
    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-   
-     gtag('config', 'G-95BF1EHTG5');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-95BF1EHTG5');
+   </script>
+   <script type="text/javascript">
+      $( document ).ready(function() {
+         $('[lang="한국어"]').hide();
+         // Retrieve saved language
+         let saved_language = localStorage.getItem('lang');
+         //we check if the value is present
+         if(saved_language){
+            $("#language_dropdown").text(saved_language);
+            changeContent(saved_language);
+         }
+      
+         $('.language_selector').click(function () {
+            var lang = $(this).attr("val");
+            console.log(lang);
+            localStorage.setItem('lang', lang);
+            $("#language_dropdown").text(lang);
+            changeContent(lang);
+         })
+         function changeContent(lang){
+            switch (lang) {
+               case 'English':
+                  $('[lang]').hide();
+                  $('[lang="English"]').show();
+                  break
+               case '한국어':
+                  $('[lang]').hide();
+                  $('[lang="한국어"]').show();
+                  break
+               default:
+                  $('[lang]').hide();
+                  $('[lang="English"]').show();
+                  break
+            }
+         }
+      });
    </script>
    <body>
       <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
@@ -29,40 +66,81 @@
             <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <a lang="English" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      DPS Charts
                      </a>
+                     <a lang="한국어" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     DPS 차트
+                     </a>
                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="dps_charts_sorted_by_min.html">Sorted by Min</a></li>
-                        <li><a class="dropdown-item" href="dps_charts_sorted_by_q25.html">Sorted by Q25</a></li>
-                        <li><a class="dropdown-item" href="dps_charts_sorted_by_median.html">Sorted by Median</a></li>
-                        <li><a class="dropdown-item" href="dps_charts_sorted_by_q75.html">Sorted by Q75</a></li>
-                        <li><a class="dropdown-item" href="dps_charts_sorted_by_max.html">Sorted by Max</a></li>
+                        <li><a lang="English" class="dropdown-item" href="dps_charts_sorted_by_min.html">Sorted by Min</a></li>
+                        <li><a lang="English" class="dropdown-item" href="dps_charts_sorted_by_q25.html">Sorted by Q25</a></li>
+                        <li><a lang="English" class="dropdown-item" href="dps_charts_sorted_by_median.html">Sorted by Median</a></li>
+                        <li><a lang="English" class="dropdown-item" href="dps_charts_sorted_by_q75.html">Sorted by Q75</a></li>
+                        <li><a lang="English" class="dropdown-item" href="dps_charts_sorted_by_max.html">Sorted by Max</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="dps_charts_sorted_by_min.html">최소값을 기준으로 정렬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="dps_charts_sorted_by_q25.html">Q25 기준으로 정렬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="dps_charts_sorted_by_median.html">중앙값을 기준으로 정렬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="dps_charts_sorted_by_q75.html">Q75 기준으로 정렬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="dps_charts_sorted_by_max.html">최대값을 기준으로 정렬</a></li>
                      </ul>
                   </li>
                   <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Fight
+                     <a id="language_dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     English
                      </a>
                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#guardian_raids">Guardian Raids</a></li>
-                        <li><a class="dropdown-item" href="#voldis_hard">Voldis Hard</a></li>
-                        <li><a class="dropdown-item" href="#voldis_normal">Voldis Normal</a></li>
-                        <li><a class="dropdown-item" href="#akkan_hard">Akkan Hard</a></li>
-                        <li><a class="dropdown-item" href="#akkan_normal">Akkan Normal</a></li>
-                        <li><a class="dropdown-item" href="#kayangel_hard">Kayangel Hard</a></li>
-                        <li><a class="dropdown-item" href="#kayangel_normal">Kayangel Normal</a></li>
-                        <li><a class="dropdown-item" href="#brelshaza_hard">Brelshaza Hard</a></li>
-                        <li><a class="dropdown-item" href="#brelshaza_normal">Brelshaza Normal</a></li>
-                        <li><a class="dropdown-item" href="#valtan_extreme">Valtan Extreme</a></li>
-                        <li><a class="dropdown-item" href="#brelshaza_inferno">Brelshaza Inferno</a></li>
-                        <li><a class="dropdown-item" href="#clown_inferno">Clown Inferno</a></li>
-                        <li><a class="dropdown-item" href="#vykas_inferno">Vykas Inferno</a></li>
-                        <li><a class="dropdown-item" href="#valtan_inferno">Valtan Inferno</a></li>
+                        <li><a class="dropdown-item language_selector" val="English" name="English" href="#">English</a></li>
+                        <li><a class="dropdown-item language_selector" val="한국어" name="한국어" href="#">한국어</a></li>
                      </ul>
                   </li>
-                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dps_info_modal">
+                  <li class="nav-item dropdown">
+                     <a lang="English" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Fight
+                     </a>
+                     <a lang="한국어" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     유형
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a lang="English" class="dropdown-item" href="#guardian_raids_en">Guardian Raids</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#voldis_hard_en">Voldis Hard</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#voldis_normal_en">Voldis Normal</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#akkan_hard_en">Akkan Hard</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#akkan_normal_en">Akkan Normal</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#kayangel_hard_en">Kayangel Hard</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#kayangel_normal_en">Kayangel Normal</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#brelshaza_hard_en">Brelshaza Hard</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#brelshaza_normal_en">Brelshaza Normal</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#valtan_extreme_en">Valtan Extreme</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#brelshaza_inferno_en">Brelshaza Inferno</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#clown_inferno_en">Clown Inferno</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#vykas_inferno_en">Vykas Inferno</a></li>
+                        <li><a lang="English" class="dropdown-item" href="#valtan_inferno_en">Valtan Inferno</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#guardian_raids_kr">Guardian Raids</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#voldis_hard_kr">볼다이크 하드</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#voldis_normal_kr">볼다이크 노말</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#akkan_hard_kr">일리아칸 하드</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#akkan_normal_kr">일리아칸 노말</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#kayangel_hard_kr">볼다이크 하드</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#kayangel_normal_kr">볼다이크 노말</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#brelshaza_hard_kr">아브렐슈드 하드</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#brelshaza_normal_kr">아브렐슈드 노말</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#valtan_extreme_kr">발탄 EX</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#brelshaza_inferno_kr">아브렐슈드 헬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#clown_inferno_kr">쿠크세이튼 헬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#vykas_inferno_kr">비아키스 헬</a></li>
+                        <li><a lang="한국어" class="dropdown-item" href="#valtan_inferno_kr">발탄 헬</a></li>
+                     </ul>
+                  </li>
+                  <button lang="English" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dps_info_modal_en">
                      Info 
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                     </svg>
+                  </button>
+                  <button lang="한국어" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dps_info_modal_kr">
+                     정보 
                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                         <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
@@ -72,11 +150,11 @@
             </div>
          </div>
       </nav>
-      <div class="modal fade" id="dps_info_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="dps_info_modal_en" tabindex="-1" aria-labelledby="exampleModalLabel_en" aria-hidden="true">
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Disclaimer</h5>
+                  <h5 class="modal-title" id="exampleModalLabel_en">Disclaimer</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                </div>
                <div class="modal-body text-center">
@@ -94,109 +172,239 @@
             </div>
          </div>
       </div>
-      <h1 class="text-center">DPS Charts Sorted by Median</h1>
-      <div class="container text-center">
-         <div id="guardian_raids" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Guardian Raids</h1>
-            <div><img src="assets/logs/DPS_GargadethNormal_1630to1675_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1630to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_GargadethNormal_1620to1630_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1620to1630_Median.png"></div>
-            <div><img src="assets/logs/DPS_GargadethNormal_1610to1620_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1610to1620_Median.png"></div>
-            <div><img src="assets/logs/DPS_SonavelNormal_1580to1610_Median.png" class="img-fluid" alt="DPS_SonavelNormal_1580to1610_Median.png"></div>
-            <div><img src="assets/logs/DPS_HanumatanNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_HanumatanNormal_1540to1580_Median.png"></div>
-         </div>
-         <div id="voldis_hard" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Voldis Hard</h1>
-            <div><img src="assets/logs/DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png"></div>
-         </div>
-         <div id="voldis_normal" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Voldis Normal</h1>
-            <div><img src="assets/logs/DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png"></div>
-            <div><img src="assets/logs/DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png"></div>
-            <div><img src="assets/logs/DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png"></div>
-            <div><img src="assets/logs/DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png"></div>
-         </div>
-         <div id="akkan_hard" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Akkan Hard</h1>
-            <div><img src="assets/logs/DPS_EvolvedMaurugHard_1600to1675_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugHard_1600to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_LordofDegradationAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanHard_1600to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_LordofKartheonAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofKartheonAkkanHard_1600to1675_Median.png"></div>
-         </div>
-         <div id="akkan_normal" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Akkan Normal</h1>
-            <div><img src="assets/logs/DPS_EvolvedMaurugNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugNormal_1580to1600_Median.png"></div>
-            <div><img src="assets/logs/DPS_LordofDegradationAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanNormal_1580to1600_Median.png"></div>
-            <div><img src="assets/logs/DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png"></div>
-         </div>
-         <div id="kayangel_hard" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Kayangel Hard</h1>
-            <div><img src="assets/logs/DPS_TienisHard_1580to1675_Median.png" class="img-fluid" alt="DPS_TienisHard_1580to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_PrunyaHard_1580to1675_Median.png" class="img-fluid" alt="DPS_PrunyaHard_1580to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_LaurielHard_1580to1675_Median.png" class="img-fluid" alt="DPS_LaurielHard_1580to1675_Median.png"></div>
-         </div>
-         <div id="kayangel_normal" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Kayangel Normal</h1>
-            <div><img src="assets/logs/DPS_TienisNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_TienisNormal_1540to1580_Median.png"></div>
-            <div><img src="assets/logs/DPS_PrunyaNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_PrunyaNormal_1540to1580_Median.png"></div>
-            <div><img src="assets/logs/DPS_LaurielNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_LaurielNormal_1540to1580_Median.png"></div>
-         </div>
-         <div id="brelshaza_hard" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Brelshaza Hard</h1>
-            <div><img src="assets/logs/DPS_GehennaHelkasirsHard_1540to1675_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsHard_1540to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_AshtarotHard_1540to1675_Median.png" class="img-fluid" alt="DPS_AshtarotHard_1540to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_PrimordialNightmareHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareHard_1540to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png"></div>
-         </div>
-         <div id="brelshaza_normal" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Brelshaza Normal</h1>
-            <div><img src="assets/logs/DPS_GehennaHelkasirsNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsNormal_1490to1540_Median.png"></div>
-            <div><img src="assets/logs/DPS_AshtarotNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_AshtarotNormal_1490to1540_Median.png"></div>
-            <div><img src="assets/logs/DPS_PrimordialNightmareNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareNormal_1490to1540_Median.png"></div>
-            <div><img src="assets/logs/DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png"></div>
-         </div>
-         <div id="valtan_extreme" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Valtan Extreme</h1>
-            <div><img src="assets/logs/DPS_DarkMountainPredatorExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_DarkMountainPredatorExtreme_1620to1675_Median.png"></div>
-            <div><img src="assets/logs/DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png"></div>
-         </div>
-         <div id="brelshaza_inferno" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Brelshaza Inferno</h1>
-            <div><img src="assets/logs/DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png"></div>
-            <div><img src="assets/logs/DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png"></div>
-         </div>
-         <div id="clown_inferno" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Clown Inferno</h1>
-            <div><img src="assets/logs/DPS_SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_SaydonInferno_0to9999_Median.png"></div>
-            <div><img src="assets/logs/DPS_KakulInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
-            <div><img src="assets/logs/DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png"></div>
-         </div>
-         <div id="vykas_inferno" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Vykas Inferno</h1>
-            <div><img src="assets/logs/DPS_CovetousDevourerVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousDevourerVykasInferno_0to9999_Median.png"></div>
-            <div><img src="assets/logs/DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png"></div>
-         </div>
-         <div id="valtan_inferno" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
-            <h2 class="text-center">
-            Valtan Inferno</h1>
-            <div><img src="assets/logs/DPS_DarkMountainPredatorInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
-            <div><img src="assets/logs/DPS_RavagedTyrantofBeastsInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+      <div class="modal fade" id="dps_info_modal_kr" tabindex="-1" aria-labelledby="exampleModalLabel_kr" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel_kr">면책 조항</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body text-center">
+                  <img src="assets/images/outliers.png" class="img-fluid" alt="outliers.png">
+                  여러 사용자가 업로드한 경우 중복 로그 제거<br>
+                  총 피해량이 보스 HP의 ±20%일 때 제외합니다<br>
+                  파싱 실행 제외(사용자가 가가데스를 하루에 30회 실행하는 경우)<br>
+                  지원 있음<br>
+                  플레이어가 죽지 않음<br>
+                  2024년 1월10일 이후 데이터<br>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+               </div>
+            </div>
          </div>
       </div>
+
+
+      <h1 lang="English" class="text-center">DPS Charts Sorted by Median</h1>
+      <h1 lang="한국어" class="text-center">DPS 차트 중앙값을 기준으로 정렬</h1>
+
+      <div lang="English" class="container text-center">
+         <div id="guardian_raids_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Guardian Raids</h2>
+            <div><img src="assets/logs/en/DPS_GargadethNormal_1630to1675_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1630to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_GargadethNormal_1620to1630_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1620to1630_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_GargadethNormal_1610to1620_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1610to1620_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_SonavelNormal_1580to1610_Median.png" class="img-fluid" alt="DPS_SonavelNormal_1580to1610_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_HanumatanNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_HanumatanNormal_1540to1580_Median.png"></div>
+         </div>
+         <div id="voldis_hard_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Voldis Hard</h2>
+            <div><img src="assets/logs/en/DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png"></div>
+         </div>
+         <div id="voldis_normal_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Voldis Normal</h2>
+            <div><img src="assets/logs/en/DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png"></div>
+         </div>
+         <div id="akkan_hard_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Akkan Hard</h2>
+            <div><img src="assets/logs/en/DPS_EvolvedMaurugHard_1600to1675_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugHard_1600to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_LordofDegradationAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanHard_1600to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_LordofKartheonAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofKartheonAkkanHard_1600to1675_Median.png"></div>
+         </div>
+         <div id="akkan_normal_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Akkan Normal</h2>
+            <div><img src="assets/logs/en/DPS_EvolvedMaurugNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugNormal_1580to1600_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_LordofDegradationAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanNormal_1580to1600_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png"></div>
+         </div>
+         <div id="kayangel_hard_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Kayangel Hard</h2>
+            <div><img src="assets/logs/en/DPS_TienisHard_1580to1675_Median.png" class="img-fluid" alt="DPS_TienisHard_1580to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PrunyaHard_1580to1675_Median.png" class="img-fluid" alt="DPS_PrunyaHard_1580to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_LaurielHard_1580to1675_Median.png" class="img-fluid" alt="DPS_LaurielHard_1580to1675_Median.png"></div>
+         </div>
+         <div id="kayangel_normal_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Kayangel Normal</h2>
+            <div><img src="assets/logs/en/DPS_TienisNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_TienisNormal_1540to1580_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PrunyaNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_PrunyaNormal_1540to1580_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_LaurielNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_LaurielNormal_1540to1580_Median.png"></div>
+         </div>
+         <div id="brelshaza_hard_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Brelshaza Hard</h2>
+            <div><img src="assets/logs/en/DPS_GehennaHelkasirsHard_1540to1675_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_AshtarotHard_1540to1675_Median.png" class="img-fluid" alt="DPS_AshtarotHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PrimordialNightmareHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png"></div>
+         </div>
+         <div id="brelshaza_normal_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Brelshaza Normal</h2>
+            <div><img src="assets/logs/en/DPS_GehennaHelkasirsNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_AshtarotNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_AshtarotNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PrimordialNightmareNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png"></div>
+         </div>
+         <div id="valtan_extreme_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Valtan Extreme</h2>
+            <div><img src="assets/logs/en/DPS_DarkMountainPredatorExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_DarkMountainPredatorExtreme_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png"></div>
+         </div>
+         <div id="brelshaza_inferno_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Brelshaza Inferno</h2>
+            <div><img src="assets/logs/en/DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="clown_inferno_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Clown Inferno</h2>
+            <div><img src="assets/logs/en/DPS_SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_SaydonInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_KakulInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="vykas_inferno_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Vykas Inferno</h2>
+            <div><img src="assets/logs/en/DPS_CovetousDevourerVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousDevourerVykasInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="valtan_inferno_en" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Valtan Inferno</h2>
+            <div><img src="assets/logs/en/DPS_DarkMountainPredatorInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/en/DPS_RavagedTyrantofBeastsInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+         </div>
+      </div>
+
+      <div lang="한국어" class="container text-center">
+         <div id="guardian_raids_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            Guardian Raids</h2>
+            <div><img src="assets/logs/kr/DPS_GargadethNormal_1630to1675_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1630to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_GargadethNormal_1620to1630_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1620to1630_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_GargadethNormal_1610to1620_Median.png" class="img-fluid" alt="DPS_GargadethNormal_1610to1620_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_SonavelNormal_1580to1610_Median.png" class="img-fluid" alt="DPS_SonavelNormal_1580to1610_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_HanumatanNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_HanumatanNormal_1540to1580_Median.png"></div>
+         </div>
+         <div id="voldis_hard_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            볼다이크 하드</h2>
+            <div><img src="assets/logs/kr/DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthHard_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerHard_1620to1675_Median.png"></div>
+         </div>
+         <div id="voldis_normal_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            볼다이크 노말</h2>
+            <div><img src="assets/logs/kr/DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Kaltaya,theBloomingChaosNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Rakathus,theLurkingArroganceNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Firehorn,TramplerofEarthNormal_1600to1620_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png" class="img-fluid" alt="DPS_Lazaram,theTrailblazerNormal_1600to1620_Median.png"></div>
+         </div>
+         <div id="akkan_hard_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            일리아칸 하드</h2>
+            <div><img src="assets/logs/kr/DPS_EvolvedMaurugHard_1600to1675_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugHard_1600to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_LordofDegradationAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanHard_1600to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_LordofKartheonAkkanHard_1600to1675_Median.png" class="img-fluid" alt="DPS_LordofKartheonAkkanHard_1600to1675_Median.png"></div>
+         </div>
+         <div id="akkan_normal_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            일리아칸 노말</h2>
+            <div><img src="assets/logs/kr/DPS_EvolvedMaurugNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_EvolvedMaurugNormal_1580to1600_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_LordofDegradationAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_LordofDegradationAkkanNormal_1580to1600_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png" class="img-fluid" alt="DPS_PlagueLegionCommanderAkkanNormal_1580to1600_Median.png"></div>
+         </div>
+         <div id="kayangel_hard_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            볼다이크 하드</h2>
+            <div><img src="assets/logs/kr/DPS_TienisHard_1580to1675_Median.png" class="img-fluid" alt="DPS_TienisHard_1580to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PrunyaHard_1580to1675_Median.png" class="img-fluid" alt="DPS_PrunyaHard_1580to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_LaurielHard_1580to1675_Median.png" class="img-fluid" alt="DPS_LaurielHard_1580to1675_Median.png"></div>
+         </div>
+         <div id="kayangel_normal_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            볼다이크 노말</h2>
+            <div><img src="assets/logs/kr/DPS_TienisNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_TienisNormal_1540to1580_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PrunyaNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_PrunyaNormal_1540to1580_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_LaurielNormal_1540to1580_Median.png" class="img-fluid" alt="DPS_LaurielNormal_1540to1580_Median.png"></div>
+         </div>
+         <div id="brelshaza_hard_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            아브렐슈드 하드</h2>
+            <div><img src="assets/logs/kr/DPS_GehennaHelkasirsHard_1540to1675_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_AshtarotHard_1540to1675_Median.png" class="img-fluid" alt="DPS_AshtarotHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PrimordialNightmareHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareHard_1540to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaHard_1540to1675_Median.png"></div>
+         </div>
+         <div id="brelshaza_normal_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            아브렐슈드 노말</h2>
+            <div><img src="assets/logs/kr/DPS_GehennaHelkasirsNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_GehennaHelkasirsNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_AshtarotNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_AshtarotNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PrimordialNightmareNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PrimordialNightmareNormal_1490to1540_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaNormal_1490to1540_Median.png"></div>
+         </div>
+         <div id="valtan_extreme_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            발탄 EX</h2>
+            <div><img src="assets/logs/kr/DPS_DarkMountainPredatorExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_DarkMountainPredatorExtreme_1620to1675_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png" class="img-fluid" alt="DPS_RavagedTyrantofBeastsExtreme_1620to1675_Median.png"></div>
+         </div>
+         <div id="brelshaza_inferno_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            아브렐슈드 헬</h2>
+            <div><img src="assets/logs/kr/DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Brelshaza,MonarchofNightmaresInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png" class="img-fluid" alt="DPS_PhantomLegionCommanderBrelshazaInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="clown_inferno_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            쿠크세이튼 헬</h2>
+            <div><img src="assets/logs/kr/DPS_SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_SaydonInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_KakulInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png" class="img-fluid" alt="DPS_Encore-DesiringKakul-SaydonInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="vykas_inferno_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            비아키스 헬</h2>
+            <div><img src="assets/logs/kr/DPS_CovetousDevourerVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousDevourerVykasInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png" class="img-fluid" alt="DPS_CovetousLegionCommanderVykasInferno_0to9999_Median.png"></div>
+         </div>
+         <div id="valtan_inferno_kr" class="p-3 m-3 border rounded" style="--bs-border-width: 3px">
+            <h2 class="text-center">
+            발탄 헬</h2>
+            <div><img src="assets/logs/kr/DPS_DarkMountainPredatorInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+            <div><img src="assets/logs/kr/DPS_RavagedTyrantofBeastsInferno_0to9999_Median.png" class="img-fluid" alt="DPS_KakulInferno_0to9999_Median.png"></div>
+         </div>
+      </div>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
    </body>
 </html>
