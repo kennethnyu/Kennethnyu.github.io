@@ -21,11 +21,14 @@
    </script>
    <script type="text/javascript">
       $( document ).ready(function() {
+         console.log("Cleaning KR elements");
          $('[lang="한국어"]').hide();
          // Retrieve saved language
          let saved_language = localStorage.getItem('lang');
+         console.log(saved_language);
          //we check if the value is present
          if(saved_language){
+            console.log(saved_language);
             $("#language_dropdown").text(saved_language);
             changeContent(saved_language);
          }
