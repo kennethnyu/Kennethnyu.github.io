@@ -40,14 +40,17 @@
          function changeContent(lang){
             switch (lang) {
                case 'English':
+                  console.log(lang);
                   $('[lang]').hide();
                   $('[lang="English"]').show();
                   break
                case '한국어':
+                  console.log(lang);
                   $('[lang]').hide();
                   $('[lang="한국어"]').show();
                   break
                default:
+                  console.log(lang);
                   $('[lang]').hide();
                   $('[lang="English"]').show();
                   break
