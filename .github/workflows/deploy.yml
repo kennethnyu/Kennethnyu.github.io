@@ -1,5 +1,5 @@
 # Build Observable Framework static site then deploy to Pages
-name: Deploy Observable Framework to Pages
+name: Deploy Logs Ark to Pages
 
 on:
   # Runs on pushes targeting the default branch
