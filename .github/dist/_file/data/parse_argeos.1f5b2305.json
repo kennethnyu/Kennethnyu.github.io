@@ -1,0 +1,831 @@
+raidId,spec,dps,boss,difficulty,gearscore,arkPsvActv,char,isDead,serverdate,score
+513938,Brawl King Storm,41710341,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-01,33
+516514,Brawl King Storm,60498293,015 Argeos,Normal,1640.0,Off,Brençracker - NAW,0,2024-10-31,64
+527591,Brawl King Storm,92799325,015 Argeos,Normal,1681.66,On,Abuun - EUC,0,2024-11-01,87
+534869,Brawl King Storm,51426843,015 Argeos,Normal,1640.0,Off,Brençracker - NAW,0,2024-11-02,50
+575055,Brawl King Storm,46486946,015 Argeos,Normal,1660.0,All,Cranabreaker - EUC,0,2024-11-04,41
+583160,Brawl King Storm,54091520,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-05,55
+588912,Brawl King Storm,48417546,015 Argeos,Normal,1640.0,Off,Brençracker - NAW,0,2024-11-05,45
+617500,Brawl King Storm,44327533,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-07,37
+648646,Brawl King Storm,46551026,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-09,41
+648989,Brawl King Storm,67788768,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-09,72
+681804,Brawl King Storm,56029653,015 Argeos,Normal,1640.83,Off,Brençracker - NAW,0,2024-11-11,58
+711486,Brawl King Storm,52629145,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-12,52
+719673,Brawl King Storm,53821495,015 Argeos,Normal,1640.83,Off,Brençracker - NAW,0,2024-11-12,54
+804462,Brawl King Storm,67209536,015 Argeos,Normal,1640.83,Off,Brençracker - NAW,0,2024-11-15,71
+810039,Brawl King Storm,49806423,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-15,47
+850606,Brawl King Storm,32774478,015 Argeos,Normal,1640.83,All,Brençracker - NAW,1,2024-11-16,18
+853941,Brawl King Storm,35542192,015 Argeos,Normal,1660.0,Off,Cranabreaker - EUC,0,2024-11-16,22
+510463,Peacemaker,47728246,015 Argeos,Normal,1645.0,Off,Elyshira - NAW,0,2024-11-01,27
+518093,Peacemaker,40047774,015 Argeos,Normal,1645.0,Off,Elyshira - NAW,0,2024-11-01,17
+564174,Peacemaker,51922285,015 Argeos,Normal,1645.0,Off,Elyshira - NAW,0,2024-11-03,33
+572335,Peacemaker,45334660,015 Argeos,Normal,1645.0,Off,Elyshira - NAW,0,2024-11-04,24
+636703,Peacemaker,46662409,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-08,25
+636968,Peacemaker,63622542,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-08,50
+640908,Peacemaker,38809056,015 Argeos,Normal,1640.0,Off,Poqaaa - NAE,0,2024-11-06,16
+641622,Peacemaker,57704509,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-08,42
+641812,Peacemaker,57952094,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-08,42
+677149,Peacemaker,66618337,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-11,53
+684077,Peacemaker,49994838,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-11,30
+725207,Peacemaker,69471918,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-12,56
+790964,Peacemaker,86111037,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-14,69
+842730,Peacemaker,83304093,015 Argeos,Normal,1660.0,On,Elyshira - NAW,0,2024-11-15,67
+850171,Peacemaker,50210786,015 Argeos,Normal,1640.0,Off,Poqaaa - NAE,0,2024-11-16,30
+514068,Lunar Voice,49164408,015 Argeos,Normal,1660.0,Off,Corrrrri - EUC,0,2024-11-01,28
+542038,Lunar Voice,57473950,015 Argeos,Normal,1660.0,Off,Corrrrri - EUC,0,2024-11-02,42
+569317,Lunar Voice,49084824,015 Argeos,Normal,1660.0,Off,Corrrrri - EUC,0,2024-11-04,28
+582161,Lunar Voice,47450138,015 Argeos,Normal,1660.0,Off,Corrrrri - EUC,0,2024-11-05,25
+639999,Lunar Voice,59401001,015 Argeos,Normal,1660.83,All,Corrrrri - EUC,0,2024-11-08,46
+716983,Lunar Voice,60337543,015 Argeos,Normal,1660.83,On,Corrrrri - EUC,0,2024-11-12,47
+786286,Lunar Voice,52578104,015 Argeos,Normal,1660.83,On,Corrrrri - EUC,0,2024-11-14,34
+831407,Lunar Voice,60956228,015 Argeos,Normal,1660.83,On,Corrrrri - EUC,0,2024-11-15,49
+502203,Energy Overflow,101581524,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-10-31,62
+502587,Energy Overflow,136311472,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-01,77
+513710,Energy Overflow,83112847,015 Argeos,Normal,1661.66,Off,Kumihogirl - EUC,0,2024-11-01,51
+527666,Energy Overflow,96558649,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-02,59
+528993,Energy Overflow,50411993,015 Argeos,Normal,1660.0,On,Energyrelease - EUC,0,2024-11-02,24
+534830,Energy Overflow,61926780,015 Argeos,Normal,1661.66,Off,Kumihogirl - EUC,0,2024-11-02,35
+534950,Energy Overflow,101474037,015 Argeos,Normal,1685.0,All,Nadeleine - EUC,0,2024-11-02,62
+536144,Energy Overflow,65161124,015 Argeos,Normal,1660.0,On,Energyrelease - EUC,0,2024-11-02,38
+551587,Energy Overflow,68390496,015 Argeos,Normal,1661.66,Off,Kumihogirl - EUC,0,2024-11-03,41
+555516,Energy Overflow,110125115,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-03,66
+562402,Energy Overflow,72450753,015 Argeos,Normal,1660.0,On,Energyrelease - EUC,0,2024-11-03,44
+569445,Energy Overflow,124191723,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-04,72
+569561,Energy Overflow,50052791,015 Argeos,Normal,1660.0,On,Energyrelease - EUC,0,2024-11-04,23
+572311,Energy Overflow,59504712,015 Argeos,Normal,1661.66,Off,Kumihogirl - EUC,0,2024-11-04,33
+582950,Energy Overflow,76988046,015 Argeos,Normal,1661.66,Off,Kumihogirl - EUC,0,2024-11-05,47
+583237,Energy Overflow,81940098,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-05,50
+584822,Energy Overflow,63857367,015 Argeos,Normal,1660.0,On,Energyrelease - EUC,0,2024-11-05,37
+605585,Energy Overflow,140170307,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-07,78
+605641,Energy Overflow,99402900,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-07,60
+605734,Energy Overflow,126164022,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-07,73
+605775,Energy Overflow,161484115,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-07,85
+614671,Energy Overflow,74313730,015 Argeos,Normal,1661.66,On,Kumihogirl - EUC,0,2024-11-07,45
+614766,Energy Overflow,83601872,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-07,51
+627303,Energy Overflow,184381113,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,91
+627319,Energy Overflow,194818407,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,93
+627336,Energy Overflow,243964383,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,98
+627366,Energy Overflow,132328803,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,76
+632619,Energy Overflow,163794361,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,86
+634496,Energy Overflow,78421845,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-08,48
+636441,Energy Overflow,62909379,015 Argeos,Normal,1661.66,On,Kumihogirl - EUC,0,2024-11-08,36
+639457,Energy Overflow,216435838,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,96
+639472,Energy Overflow,137693296,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,77
+639493,Energy Overflow,174100297,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,88
+639645,Energy Overflow,221220323,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,96
+639726,Energy Overflow,172107815,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,88
+640056,Energy Overflow,79536159,015 Argeos,Normal,1668.33,On,Corrri - EUC,0,2024-11-08,49
+641886,Energy Overflow,196565749,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-08,93
+641988,Energy Overflow,178236032,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,89
+642006,Energy Overflow,143452905,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,79
+642080,Energy Overflow,129170048,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,74
+642125,Energy Overflow,120589244,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,71
+642135,Energy Overflow,174248594,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,88
+642149,Energy Overflow,179492648,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,90
+642198,Energy Overflow,208136033,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,95
+642216,Energy Overflow,124917605,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,72
+642241,Energy Overflow,156847646,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,83
+642277,Energy Overflow,160960996,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,85
+642285,Energy Overflow,227587750,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,96
+642293,Energy Overflow,215995321,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,96
+642306,Energy Overflow,193972252,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,93
+642319,Energy Overflow,183798952,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,91
+642325,Energy Overflow,177045399,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,89
+642552,Energy Overflow,192767636,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,93
+642575,Energy Overflow,193136506,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,93
+648750,Energy Overflow,142358219,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-09,79
+649098,Energy Overflow,76551720,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-09,47
+673089,Energy Overflow,178778920,015 Argeos,Normal,1685.0,All,Nadeleine - EUC,0,2024-11-11,90
+673096,Energy Overflow,175639662,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,89
+673217,Energy Overflow,78581118,015 Argeos,Normal,1675.0,On,Corrri - EUC,0,2024-11-11,48
+673253,Energy Overflow,75148294,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-11,46
+673958,Energy Overflow,80204672,015 Argeos,Normal,1661.66,On,Kumihogirl - EUC,0,2024-11-11,49
+674505,Energy Overflow,167914345,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,87
+674675,Energy Overflow,192191649,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,93
+675669,Energy Overflow,110558190,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,66
+675681,Energy Overflow,187353206,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,92
+675703,Energy Overflow,145165226,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,80
+675740,Energy Overflow,110116483,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,66
+676180,Energy Overflow,164375461,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,86
+676525,Energy Overflow,163961016,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,86
+677456,Energy Overflow,179103063,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,90
+677557,Energy Overflow,178697534,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,90
+677659,Energy Overflow,137548451,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,77
+678012,Energy Overflow,139418356,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,78
+678068,Energy Overflow,138219707,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,78
+678079,Energy Overflow,145357498,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,80
+678091,Energy Overflow,157884625,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,84
+678095,Energy Overflow,146834104,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,80
+678581,Energy Overflow,163211481,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,85
+678905,Energy Overflow,149009960,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,81
+678918,Energy Overflow,153792920,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,83
+679078,Energy Overflow,145465954,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,80
+679082,Energy Overflow,168858638,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,87
+679089,Energy Overflow,204849771,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,95
+679092,Energy Overflow,160239664,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,84
+679126,Energy Overflow,150864188,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,82
+679338,Energy Overflow,174166904,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,88
+679348,Energy Overflow,190912150,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,92
+696763,Energy Overflow,78255499,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,48
+696775,Energy Overflow,136483070,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,77
+696789,Energy Overflow,101193807,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,61
+696810,Energy Overflow,173600670,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,88
+696943,Energy Overflow,181141322,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,90
+697250,Energy Overflow,156385527,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,83
+697790,Energy Overflow,154773367,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,83
+698345,Energy Overflow,148392422,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,81
+699129,Energy Overflow,181041689,015 Argeos,Normal,1685.0,All,Nadeleine - EUC,0,2024-11-11,90
+700917,Energy Overflow,127317147,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,73
+701689,Energy Overflow,128465038,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,74
+701997,Energy Overflow,155415007,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,83
+702149,Energy Overflow,159818649,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,84
+702355,Energy Overflow,107344782,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,65
+702797,Energy Overflow,140526264,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,78
+703495,Energy Overflow,134163647,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,76
+703891,Energy Overflow,112609152,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,67
+704166,Energy Overflow,143412520,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-11,79
+717081,Energy Overflow,95398647,015 Argeos,Normal,1661.66,On,Kumihogirl - EUC,0,2024-11-12,58
+717748,Energy Overflow,129518369,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,74
+719484,Energy Overflow,75096366,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-12,46
+721430,Energy Overflow,164489989,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,86
+721455,Energy Overflow,142601308,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,79
+721477,Energy Overflow,188917283,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,92
+721504,Energy Overflow,202311715,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,94
+721526,Energy Overflow,134621928,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,76
+721554,Energy Overflow,151893958,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,82
+721572,Energy Overflow,199041411,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,94
+721598,Energy Overflow,147951626,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,80
+725274,Energy Overflow,162830026,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,85
+725389,Energy Overflow,188540881,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,92
+725395,Energy Overflow,137886593,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-12,77
+743151,Energy Overflow,163738525,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,86
+743195,Energy Overflow,167403553,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,87
+743269,Energy Overflow,169304815,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,87
+743477,Energy Overflow,212644860,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,95
+743661,Energy Overflow,199401018,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,94
+743703,Energy Overflow,172448788,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,88
+743744,Energy Overflow,178910787,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,90
+744781,Energy Overflow,181528913,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,90
+744835,Energy Overflow,151818116,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,82
+745024,Energy Overflow,207481793,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-13,95
+745362,Energy Overflow,113478863,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,67
+746050,Energy Overflow,143384324,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,79
+746254,Energy Overflow,187338591,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,92
+746838,Energy Overflow,211679126,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,95
+747083,Energy Overflow,264741997,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,98
+747157,Energy Overflow,204795802,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,95
+747186,Energy Overflow,217571266,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,96
+747203,Energy Overflow,240243079,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,98
+751343,Energy Overflow,205833476,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,95
+751778,Energy Overflow,234129430,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,97
+752465,Energy Overflow,218734584,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,96
+752686,Energy Overflow,206786600,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,95
+761132,Energy Overflow,166474277,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,86
+761147,Energy Overflow,175374611,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,89
+761170,Energy Overflow,159163980,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,84
+767897,Energy Overflow,71166250,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-14,42
+768282,Energy Overflow,66171488,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-14,39
+771435,Energy Overflow,183097134,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,91
+786906,Energy Overflow,66361284,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-14,39
+786930,Energy Overflow,71923534,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-14,43
+786978,Energy Overflow,76069088,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-14,47
+787024,Energy Overflow,88810650,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-14,54
+789110,Energy Overflow,263359732,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,98
+789121,Energy Overflow,196875907,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,94
+789129,Energy Overflow,301681080,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,99
+789149,Energy Overflow,342652026,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-14,99
+795118,Energy Overflow,161376103,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,85
+809955,Energy Overflow,83365560,015 Argeos,Normal,1666.66,On,Kumihogirl - EUC,0,2024-11-15,51
+810009,Energy Overflow,195964391,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,93
+831005,Energy Overflow,93008663,015 Argeos,Normal,1680.0,On,Corrri - EUC,0,2024-11-15,56
+835947,Energy Overflow,204460880,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,94
+835966,Energy Overflow,209897713,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,95
+836214,Energy Overflow,228393725,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,97
+836250,Energy Overflow,195501875,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,93
+836271,Energy Overflow,265935010,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,98
+836319,Energy Overflow,308001853,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,99
+836346,Energy Overflow,340826005,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,99
+836368,Energy Overflow,204353264,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-15,94
+852598,Energy Overflow,41591369,015 Argeos,Normal,1668.33,On,Kumihogirl - EUC,0,2024-11-16,15
+852734,Energy Overflow,172164071,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,88
+853593,Energy Overflow,79737114,015 Argeos,Normal,1660.83,On,Energyrelease - EUC,0,2024-11-16,49
+853673,Energy Overflow,196024259,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,93
+853690,Energy Overflow,219735782,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,96
+853862,Energy Overflow,203048619,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,94
+853882,Energy Overflow,161682165,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,85
+853903,Energy Overflow,201412192,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,94
+853936,Energy Overflow,177924072,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,89
+853967,Energy Overflow,209644438,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,95
+853982,Energy Overflow,221469727,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,96
+854004,Energy Overflow,234594083,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,97
+854020,Energy Overflow,194339249,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,93
+854037,Energy Overflow,257137477,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,98
+854060,Energy Overflow,229484860,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,97
+854071,Energy Overflow,171577708,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,87
+854096,Energy Overflow,236424854,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,97
+854137,Energy Overflow,172911224,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,88
+854148,Energy Overflow,206419950,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,95
+854243,Energy Overflow,211799538,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,95
+854287,Energy Overflow,238821614,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,97
+854308,Energy Overflow,149183658,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,81
+854386,Energy Overflow,171924981,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,88
+854399,Energy Overflow,271411693,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,99
+854420,Energy Overflow,207607116,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,95
+854468,Energy Overflow,301965258,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,99
+854480,Energy Overflow,367451186,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,99
+854490,Energy Overflow,409448394,015 Argeos,Normal,1685.0,On,Nadeleine - EUC,0,2024-11-16,99
+513661,Wind Fury,41745981,015 Argeos,Normal,1640.0,Off,Loliconero - EUC,0,2024-11-01,33
+518162,Wind Fury,15977199,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-01,2
+525453,Wind Fury,46648059,015 Argeos,Normal,1640.83,Off,Weatherlove - EUC,0,2024-11-01,42
+534844,Wind Fury,65521319,015 Argeos,Normal,1665.0,Off,Beeßee - NAW,0,2024-11-02,74
+582265,Wind Fury,28540459,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-05,12
+591107,Wind Fury,104417000,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-06,93
+591196,Wind Fury,104983177,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-06,94
+592190,Wind Fury,94716943,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-06,91
+592223,Wind Fury,111275610,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-06,95
+594514,Wind Fury,116250821,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-06,96
+609741,Wind Fury,114428282,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-07,95
+613523,Wind Fury,102052705,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-07,93
+614697,Wind Fury,21391881,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-07,5
+632707,Wind Fury,109988419,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-08,95
+641743,Wind Fury,143911187,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-08,98
+641875,Wind Fury,112921080,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-08,95
+648663,Wind Fury,23559536,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-09,7
+648736,Wind Fury,35139223,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-09,21
+765670,Wind Fury,48099860,015 Argeos,Normal,1640.83,Off,Weatherlove - EUC,0,2024-11-14,45
+772104,Wind Fury,32442447,015 Argeos,Normal,1640.0,Off,Cranaero - EUC,0,2024-11-14,17
+852662,Wind Fury,33351346,015 Argeos,Normal,1641.66,Off,Loliconero - EUC,0,2024-11-16,18
+852685,Wind Fury,58156290,015 Argeos,Normal,1655.83,Off,Weatherlove - EUC,0,2024-11-16,64
+485047,Night's Edge,69381910,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-10-30,61
+513941,Night's Edge,69154923,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-01,61
+516515,Night's Edge,65343422,015 Argeos,Normal,1660.0,On,Soulßeater - NAW,0,2024-10-31,55
+516516,Night's Edge,65071746,015 Argeos,Normal,1660.0,On,Soulßeater - NAW,0,2024-10-31,55
+542026,Night's Edge,70589678,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-02,63
+569323,Night's Edge,67562231,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-04,58
+582165,Night's Edge,66803364,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-05,57
+588928,Night's Edge,63875782,015 Argeos,Normal,1660.0,On,Soulßeater - NAW,0,2024-11-05,53
+673204,Night's Edge,60354043,015 Argeos,Normal,1661.66,On,Carchoal - EUC,0,2024-11-11,48
+716975,Night's Edge,80740813,015 Argeos,Normal,1662.5,On,Carchoal - EUC,0,2024-11-12,74
+719652,Night's Edge,77004002,015 Argeos,Normal,1660.83,On,Soulßeater - NAW,0,2024-11-12,70
+786702,Night's Edge,76826018,015 Argeos,Normal,1662.5,On,Carchoal - EUC,0,2024-11-14,70
+831176,Night's Edge,93994434,015 Argeos,Normal,1662.5,On,Carchoal - EUC,0,2024-11-15,83
+513857,Demonic Impulse,70217231,015 Argeos,Normal,1660.0,All,Distancy - EUC,0,2024-11-01,71
+513897,Demonic Impulse,60578561,015 Argeos,Normal,1660.0,Off,Sylvalie - EUC,0,2024-11-01,61
+514130,Demonic Impulse,50457248,015 Argeos,Normal,1670.0,Off,Realugro - EUC,0,2024-11-01,46
+534857,Demonic Impulse,63328959,015 Argeos,Normal,1660.0,Off,Distancy - EUC,0,2024-11-02,64
+534873,Demonic Impulse,68514813,015 Argeos,Normal,1660.0,Off,Sylvalie - EUC,0,2024-11-02,70
+544417,Demonic Impulse,52662958,015 Argeos,Normal,1640.0,Off,Phaée - NAE,0,2024-11-02,49
+548826,Demonic Impulse,57556082,015 Argeos,Normal,1679.16,Off,Realugro - EUC,0,2024-11-03,56
+551636,Demonic Impulse,67400341,015 Argeos,Normal,1660.0,Off,Distancy - EUC,0,2024-11-03,69
+551649,Demonic Impulse,60420093,015 Argeos,Normal,1660.0,Off,Sylvalie - EUC,0,2024-11-03,60
+569455,Demonic Impulse,62052647,015 Argeos,Normal,1680.0,On,Realugro - EUC,0,2024-11-04,63
+572353,Demonic Impulse,75151257,015 Argeos,Normal,1660.0,Off,Distancy - EUC,0,2024-11-04,75
+572912,Demonic Impulse,64482118,015 Argeos,Normal,1660.0,Off,Sylvalie - EUC,0,2024-11-04,65
+578076,Demonic Impulse,51318817,015 Argeos,Normal,1640.0,Off,Phaée - NAE,0,2024-11-05,47
+583158,Demonic Impulse,55382136,015 Argeos,Normal,1660.0,Off,Distancy - EUC,0,2024-11-05,54
+583169,Demonic Impulse,74066966,015 Argeos,Normal,1660.0,Off,Sylvalie - EUC,0,2024-11-05,74
+590355,Demonic Impulse,68997973,015 Argeos,Normal,1680.0,On,Realugro - EUC,0,2024-11-05,70
+614721,Demonic Impulse,92451508,015 Argeos,Normal,1660.0,On,Distancy - EUC,0,2024-11-07,83
+614738,Demonic Impulse,77811330,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-07,76
+617410,Demonic Impulse,69012477,015 Argeos,Normal,1680.0,On,Realugro - EUC,0,2024-11-07,70
+625598,Demonic Impulse,45881604,015 Argeos,Normal,1640.0,Off,Phaée - NAE,0,2024-11-08,38
+639407,Demonic Impulse,85839721,015 Argeos,Normal,1660.0,On,Distancy - EUC,0,2024-11-08,81
+639435,Demonic Impulse,76197981,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-08,75
+649277,Demonic Impulse,82017194,015 Argeos,Normal,1660.0,On,Distancy - EUC,0,2024-11-09,79
+649300,Demonic Impulse,77190967,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-09,76
+674388,Demonic Impulse,107595082,015 Argeos,Normal,1660.0,On,Distancy - EUC,0,2024-11-11,87
+674394,Demonic Impulse,75460143,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-11,75
+717247,Demonic Impulse,77997864,015 Argeos,Normal,1660.0,On,Distancy - EUC,0,2024-11-12,76
+717263,Demonic Impulse,86276638,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-12,81
+744568,Demonic Impulse,83001478,015 Argeos,Normal,1660.83,On,Distancy - EUC,0,2024-11-13,79
+744800,Demonic Impulse,112622698,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-13,88
+766370,Demonic Impulse,97625325,015 Argeos,Normal,1660.83,On,Distancy - EUC,0,2024-11-14,85
+766813,Demonic Impulse,94932888,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-14,84
+809994,Demonic Impulse,90188294,015 Argeos,Normal,1660.83,On,Distancy - EUC,0,2024-11-15,82
+810014,Demonic Impulse,82107286,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-15,79
+846166,Demonic Impulse,58787830,015 Argeos,Normal,1640.0,Off,Phaée - NAE,0,2024-11-16,58
+852636,Demonic Impulse,105011984,015 Argeos,Normal,1660.83,On,Distancy - EUC,0,2024-11-16,86
+852666,Demonic Impulse,96352258,015 Argeos,Normal,1660.0,On,Sylvalie - EUC,0,2024-11-16,84
+513528,Igniter,142657508,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-01,94
+524573,Igniter,96029748,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-01,82
+527585,Igniter,200728484,015 Argeos,Normal,1726.66,On,Asuun - EUC,0,2024-10-30,98
+527593,Igniter,293508751,015 Argeos,Normal,1726.66,On,Asuun - EUC,0,2024-11-01,99
+534797,Igniter,177576798,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-02,97
+551566,Igniter,153145919,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-03,95
+569648,Igniter,167918353,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-04,97
+569657,Igniter,181900940,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-04,97
+572263,Igniter,129713109,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-04,92
+582220,Igniter,140205621,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-05,94
+583193,Igniter,152128647,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-05,95
+635983,Igniter,198608028,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-08,98
+649008,Igniter,216780005,015 Argeos,Normal,1685.0,On,Derpy - EUC,0,2024-11-09,98
+673412,Igniter,187402719,015 Argeos,Normal,1689.16,On,Derpy - EUC,0,2024-11-11,98
+674407,Igniter,217767462,015 Argeos,Normal,1689.16,On,Derpy - EUC,0,2024-11-11,99
+674413,Igniter,200097269,015 Argeos,Normal,1689.16,On,Derpy - EUC,0,2024-11-11,98
+674419,Igniter,234847102,015 Argeos,Normal,1689.16,On,Derpy - EUC,0,2024-11-11,99
+705965,Igniter,265315229,015 Argeos,Normal,1730.83,On,Asuun - EUC,0,2024-11-11,99
+716999,Igniter,182100605,015 Argeos,Normal,1689.16,On,Derpy - EUC,0,2024-11-12,97
+727543,Igniter,106105609,015 Argeos,Normal,1681.66,On,Dazed - NAE,0,2024-11-13,86
+743689,Igniter,246818385,015 Argeos,Normal,1690.0,On,Derpy - EUC,0,2024-11-13,99
+752140,Igniter,367662347,015 Argeos,Normal,1735.0,On,Asuun - EUC,0,2024-11-14,99
+752525,Igniter,423897868,015 Argeos,Normal,1735.0,On,Asuun - EUC,0,2024-11-14,99
+760661,Igniter,53426720,015 Argeos,Normal,1681.66,On,Dazed - NAE,0,2024-11-07,45
+760670,Igniter,121136742,015 Argeos,Normal,1681.66,All,Dazed - NAE,0,2024-11-09,90
+809922,Igniter,219138841,015 Argeos,Normal,1690.0,On,Derpy - EUC,0,2024-11-15,99
+827419,Igniter,250143832,015 Argeos,Normal,1735.0,On,Asuun - EUC,0,2024-11-15,99
+830124,Igniter,279832703,015 Argeos,Normal,1735.0,On,Asuun - EUC,0,2024-11-15,99
+834256,Igniter,233641267,015 Argeos,Normal,1690.0,On,Derpy - EUC,0,2024-11-15,99
+850171,Igniter,106374631,015 Argeos,Normal,1684.16,On,Dazed - NAE,0,2024-11-16,86
+852569,Igniter,227054450,015 Argeos,Normal,1690.0,On,Derpy - EUC,0,2024-11-16,99
+484557,Rage Hammer,88893463,015 Argeos,Normal,1684.16,Off,Onefournine - EUC,0,2024-10-30,83
+490400,Rage Hammer,120808068,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-30,89
+492145,Rage Hammer,114599913,015 Argeos,Normal,1684.16,All,Onefournine - EUC,0,2024-10-30,87
+495726,Rage Hammer,112618804,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,87
+495785,Rage Hammer,124276043,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,89
+495807,Rage Hammer,97184961,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,85
+497294,Rage Hammer,126015684,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,90
+498774,Rage Hammer,127616148,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,90
+500524,Rage Hammer,110144549,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-10-31,87
+514113,Rage Hammer,134488934,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,91
+514132,Rage Hammer,105739468,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,86
+514153,Rage Hammer,85343341,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,82
+523355,Rage Hammer,115312819,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,88
+523418,Rage Hammer,130033518,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,90
+523433,Rage Hammer,97576318,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,85
+523442,Rage Hammer,155587668,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,93
+523457,Rage Hammer,97743389,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,85
+523520,Rage Hammer,122935013,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,89
+523587,Rage Hammer,137877671,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,91
+526256,Rage Hammer,95076497,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,85
+526285,Rage Hammer,126813664,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,90
+526296,Rage Hammer,181183199,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,95
+526311,Rage Hammer,134270814,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,91
+526341,Rage Hammer,175076417,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,95
+526369,Rage Hammer,120856790,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,89
+526377,Rage Hammer,155969275,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,94
+526426,Rage Hammer,167562604,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,95
+526434,Rage Hammer,202788218,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,96
+526445,Rage Hammer,145482723,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,92
+526458,Rage Hammer,165872726,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,94
+527149,Rage Hammer,133712830,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,91
+527400,Rage Hammer,136671369,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,91
+527431,Rage Hammer,80977693,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,80
+527452,Rage Hammer,121759505,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,89
+527475,Rage Hammer,85048899,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-01,82
+535014,Rage Hammer,103984004,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,86
+535027,Rage Hammer,127981028,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,90
+535043,Rage Hammer,154438061,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,93
+535337,Rage Hammer,115770022,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,88
+535624,Rage Hammer,183590580,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,96
+535631,Rage Hammer,167019790,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,94
+535643,Rage Hammer,234063269,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,97
+535646,Rage Hammer,299121687,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,98
+535866,Rage Hammer,251865380,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,98
+536786,Rage Hammer,137240367,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,91
+537761,Rage Hammer,130886627,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,90
+537768,Rage Hammer,149329423,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,93
+537773,Rage Hammer,191217085,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,96
+537784,Rage Hammer,174562483,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,95
+537790,Rage Hammer,171763779,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,95
+537796,Rage Hammer,187489082,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,96
+542840,Rage Hammer,122932085,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,89
+542896,Rage Hammer,117799279,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,88
+542911,Rage Hammer,91534853,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,83
+544182,Rage Hammer,111249463,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,87
+544212,Rage Hammer,90548179,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,83
+544225,Rage Hammer,154143304,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,93
+544242,Rage Hammer,99929828,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,85
+544273,Rage Hammer,89965005,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-02,83
+551972,Rage Hammer,115042666,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,88
+551982,Rage Hammer,91927332,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,84
+552010,Rage Hammer,108564221,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,87
+555849,Rage Hammer,162170888,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,94
+555873,Rage Hammer,146423468,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,92
+555887,Rage Hammer,127002832,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,90
+555947,Rage Hammer,163267829,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,94
+555996,Rage Hammer,115500454,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,88
+563723,Rage Hammer,121533512,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,89
+563742,Rage Hammer,144390480,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,92
+563759,Rage Hammer,102840578,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,86
+563787,Rage Hammer,147818877,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,92
+563831,Rage Hammer,178423168,015 Argeos,Normal,1684.16,All,Onefournine - EUC,0,2024-11-03,95
+563842,Rage Hammer,98523158,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,85
+563882,Rage Hammer,92227721,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,84
+563899,Rage Hammer,160468547,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,94
+563910,Rage Hammer,180530541,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,95
+563924,Rage Hammer,240377304,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,97
+563988,Rage Hammer,254477132,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,98
+564006,Rage Hammer,227266061,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,97
+564083,Rage Hammer,94458691,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,85
+564300,Rage Hammer,157133205,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,94
+564340,Rage Hammer,172725865,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,95
+564353,Rage Hammer,145500857,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,92
+564359,Rage Hammer,87617129,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,82
+564370,Rage Hammer,169609119,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-03,95
+571809,Rage Hammer,143547073,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,92
+571843,Rage Hammer,105225989,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,86
+571858,Rage Hammer,115516264,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,88
+571862,Rage Hammer,128168580,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,90
+571870,Rage Hammer,121304756,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,89
+571981,Rage Hammer,126293762,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,90
+571991,Rage Hammer,112329423,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,87
+572001,Rage Hammer,149318279,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,93
+572028,Rage Hammer,128534955,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,90
+572059,Rage Hammer,128991579,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,90
+572078,Rage Hammer,131523635,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,90
+572099,Rage Hammer,95967432,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,85
+572109,Rage Hammer,115588146,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,88
+572116,Rage Hammer,117139008,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,88
+572129,Rage Hammer,114767471,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,88
+572141,Rage Hammer,107557352,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,87
+572149,Rage Hammer,132214821,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,91
+572162,Rage Hammer,163310597,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,94
+572175,Rage Hammer,137995256,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,92
+572212,Rage Hammer,136337439,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,91
+572223,Rage Hammer,148048077,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,93
+572241,Rage Hammer,135449173,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,91
+572283,Rage Hammer,173400462,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,95
+572318,Rage Hammer,188623604,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,96
+572347,Rage Hammer,345414130,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,99
+572425,Rage Hammer,300449658,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,98
+572811,Rage Hammer,204821531,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,96
+572995,Rage Hammer,148028451,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,92
+573008,Rage Hammer,124162359,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,89
+573023,Rage Hammer,155398738,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,93
+573469,Rage Hammer,114744387,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,88
+573570,Rage Hammer,132259337,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,91
+573588,Rage Hammer,135877406,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,91
+573646,Rage Hammer,76887680,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-04,79
+584735,Rage Hammer,103716261,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,86
+584745,Rage Hammer,132429648,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,91
+584777,Rage Hammer,110363146,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,87
+584782,Rage Hammer,136851990,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,91
+584791,Rage Hammer,152195696,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,93
+584798,Rage Hammer,138837909,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,92
+584806,Rage Hammer,151164780,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,93
+584814,Rage Hammer,87745340,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,82
+584831,Rage Hammer,133834919,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,91
+584845,Rage Hammer,129788076,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,90
+587469,Rage Hammer,112903239,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,87
+588668,Rage Hammer,92042560,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,84
+588837,Rage Hammer,125178271,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,90
+588851,Rage Hammer,119938640,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,88
+588900,Rage Hammer,93458796,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,84
+588914,Rage Hammer,151382977,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,93
+589038,Rage Hammer,145716690,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,92
+589080,Rage Hammer,120818375,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,89
+589096,Rage Hammer,119449202,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,88
+589117,Rage Hammer,127821552,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,90
+589126,Rage Hammer,98895487,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,85
+589131,Rage Hammer,139024761,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,92
+589186,Rage Hammer,121141580,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,89
+589202,Rage Hammer,171843112,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,95
+589212,Rage Hammer,137921859,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,92
+589223,Rage Hammer,183757998,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,96
+589233,Rage Hammer,150287951,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,93
+589240,Rage Hammer,172173112,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,95
+589252,Rage Hammer,154209989,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,93
+589270,Rage Hammer,157613529,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,94
+589327,Rage Hammer,143034858,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,92
+589348,Rage Hammer,96678229,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-05,85
+614288,Rage Hammer,131928020,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,90
+614649,Rage Hammer,77331201,015 Argeos,Normal,1684.16,All,Onefournine - EUC,0,2024-11-07,79
+614657,Rage Hammer,133301277,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,91
+614670,Rage Hammer,143722651,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,92
+614684,Rage Hammer,144255463,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,92
+614695,Rage Hammer,139116504,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,92
+614765,Rage Hammer,149420099,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,93
+617688,Rage Hammer,127701244,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,90
+617698,Rage Hammer,135666966,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,91
+617715,Rage Hammer,80349320,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,80
+617733,Rage Hammer,99572557,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,85
+617803,Rage Hammer,108226151,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,87
+617816,Rage Hammer,164838593,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,94
+622305,Rage Hammer,134872809,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,91
+622322,Rage Hammer,148228891,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,93
+622339,Rage Hammer,135525821,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,91
+622364,Rage Hammer,124651260,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,90
+622521,Rage Hammer,173877078,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,95
+622545,Rage Hammer,114488294,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,87
+622554,Rage Hammer,140950499,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,92
+622584,Rage Hammer,122247008,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-07,89
+635650,Rage Hammer,166723923,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,94
+635911,Rage Hammer,141135067,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,92
+637052,Rage Hammer,154986987,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,93
+637062,Rage Hammer,167960261,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,95
+637090,Rage Hammer,165366321,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,94
+674413,Rage Hammer,213151661,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-11,97
+674437,Rage Hammer,218765874,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-11,97
+674453,Rage Hammer,122011545,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-11,89
+681793,Rage Hammer,206406496,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-11,97
+685796,Rage Hammer,382272487,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-11,99
+718664,Rage Hammer,244391185,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-12,97
+720718,Rage Hammer,173124075,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-08,95
+721477,Rage Hammer,193908769,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-12,96
+721526,Rage Hammer,198092809,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-12,96
+829326,Rage Hammer,243854709,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-15,97
+830101,Rage Hammer,248689642,015 Argeos,Normal,1684.16,On,Onefournine - EUC,0,2024-11-15,97
+850234,Asura's Path,86168790,015 Argeos,Normal,1662.5,On,Dazedbreaker - NAE,0,2024-11-16,85
+495485,Drizzle,108487995,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-10-31,92
+517641,Drizzle,100379830,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-01,90
+535596,Drizzle,100812217,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-02,90
+562371,Drizzle,103666978,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-03,91
+564385,Drizzle,126234842,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-03,95
+572269,Drizzle,115685449,015 Argeos,Normal,1697.5,On,Elykaze - NAW,0,2024-11-04,93
+672515,Drizzle,118293799,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,94
+673164,Drizzle,108615020,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,92
+675295,Drizzle,105923901,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,91
+681790,Drizzle,121338734,015 Argeos,Normal,1700.0,All,Elykaze - NAW,0,2024-11-11,94
+692228,Drizzle,132216087,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,96
+703663,Drizzle,94870235,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,89
+704467,Drizzle,126662240,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,95
+704810,Drizzle,134255680,015 Argeos,Normal,1700.0,All,Elykaze - NAW,0,2024-11-11,96
+705952,Drizzle,128904912,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-11,95
+706190,Drizzle,108828980,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-12,92
+716918,Drizzle,123738880,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-12,95
+725143,Drizzle,126551814,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-12,95
+767832,Drizzle,163423429,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-14,98
+790580,Drizzle,131554019,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-14,95
+839482,Drizzle,132183033,015 Argeos,Normal,1700.0,On,Elykaze - NAW,0,2024-11-15,96
+514148,Full Moon Harvester,48371103,015 Argeos,Normal,1660.66,Off,Wapsett - EUC,0,2024-11-01,41
+518763,Full Moon Harvester,43060048,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-01,32
+524813,Full Moon Harvester,46934917,015 Argeos,Normal,1660.33,Off,Nêgrugro - EUC,0,2024-11-01,38
+525292,Full Moon Harvester,43695426,015 Argeos,Normal,1642.5,Off,Lovewatching - EUC,0,2024-11-01,33
+528377,Full Moon Harvester,79323742,015 Argeos,Normal,1660.0,Off,Seouldrinker - EUC,0,2024-11-02,71
+535640,Full Moon Harvester,68363715,015 Argeos,Normal,1660.0,Off,Seouldrinker - EUC,0,2024-11-02,64
+548912,Full Moon Harvester,54022533,015 Argeos,Normal,1660.66,Off,Wapsett - EUC,0,2024-11-03,48
+569480,Full Moon Harvester,54770870,015 Argeos,Normal,1660.66,Off,Wapsett - EUC,0,2024-11-04,49
+569502,Full Moon Harvester,47398266,015 Argeos,Normal,1662.0,Off,Nêgrugro - EUC,0,2024-11-04,39
+569541,Full Moon Harvester,49653487,015 Argeos,Normal,1660.0,Off,Seouldrinker - EUC,0,2024-11-04,42
+572258,Full Moon Harvester,18672473,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-04,4
+582185,Full Moon Harvester,37203060,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-05,23
+584803,Full Moon Harvester,61055004,015 Argeos,Normal,1660.0,Off,Seouldrinker - EUC,0,2024-11-05,57
+613502,Full Moon Harvester,29489315,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-07,13
+614727,Full Moon Harvester,62838488,015 Argeos,Normal,1660.0,Off,Seouldrinker - EUC,0,2024-11-07,59
+617452,Full Moon Harvester,57827330,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-07,53
+619589,Full Moon Harvester,51009318,015 Argeos,Normal,1660.66,Off,Wapsett - EUC,0,2024-11-07,44
+619685,Full Moon Harvester,79860435,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-07,72
+633602,Full Moon Harvester,64534056,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-08,61
+636520,Full Moon Harvester,60849188,015 Argeos,Normal,1660.0,On,Carchoal - EUC,0,2024-11-08,57
+640954,Full Moon Harvester,60745101,015 Argeos,Normal,1661.66,On,Carchoal - EUC,0,2024-11-08,57
+648632,Full Moon Harvester,49388991,015 Argeos,Normal,1642.5,Off,Lovewatching - EUC,0,2024-11-09,42
+648676,Full Moon Harvester,34819226,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-09,19
+648758,Full Moon Harvester,17409913,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-09,3
+649034,Full Moon Harvester,62972893,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-09,59
+673219,Full Moon Harvester,68232811,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-11,64
+675684,Full Moon Harvester,19260127,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-11,4
+708319,Full Moon Harvester,25450855,015 Argeos,Normal,1651.66,Off,Foxstarxx - NAE,0,2024-10-31,8
+708325,Full Moon Harvester,38524588,015 Argeos,Normal,1651.66,Off,Foxstarxx - NAE,0,2024-11-01,25
+708326,Full Moon Harvester,26385863,015 Argeos,Normal,1651.66,Off,Foxstarxx - NAE,0,2024-11-01,9
+708329,Full Moon Harvester,35598585,015 Argeos,Normal,1651.66,Off,Foxstarxx - NAE,0,2024-11-02,21
+708350,Full Moon Harvester,46824643,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-04,38
+708351,Full Moon Harvester,31331724,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-04,15
+708352,Full Moon Harvester,41447605,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-04,29
+708363,Full Moon Harvester,34741905,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-06,19
+708372,Full Moon Harvester,45162093,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-08,35
+708379,Full Moon Harvester,43532416,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-08,33
+708392,Full Moon Harvester,42489184,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-10,31
+708393,Full Moon Harvester,48846652,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-11,41
+719434,Full Moon Harvester,67100475,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-12,63
+726131,Full Moon Harvester,49758266,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-12,43
+760689,Full Moon Harvester,97874698,015 Argeos,Normal,1661.66,On,Dazedsouleater - NAE,0,2024-11-13,79
+768239,Full Moon Harvester,69192930,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-14,64
+786195,Full Moon Harvester,38871270,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-14,25
+808354,Full Moon Harvester,21299652,015 Argeos,Normal,1660.0,On,Foxstarxx - NAE,0,2024-11-15,5
+808771,Full Moon Harvester,30785122,015 Argeos,Normal,1660.0,On,Foxstarxx - NAE,0,2024-11-15,14
+809947,Full Moon Harvester,37689820,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-15,23
+831130,Full Moon Harvester,35122798,015 Argeos,Normal,1660.0,Off,Foxstarxx - NAE,0,2024-11-15,20
+850135,Full Moon Harvester,70854085,015 Argeos,Normal,1661.66,On,Dazedsouleater - NAE,0,2024-11-16,66
+852631,Full Moon Harvester,32696957,015 Argeos,Normal,1642.5,All,Lovewatching - EUC,0,2024-11-16,17
+853554,Full Moon Harvester,72012563,015 Argeos,Normal,1660.0,On,Seouldrinker - EUC,0,2024-11-16,67
+854066,Full Moon Harvester,30318258,015 Argeos,Normal,1640.0,Off,Cranaeater - EUC,0,2024-11-16,14
+502675,Predator,14627535,015 Argeos,Normal,1642.5,Off,Icecreamqueen - EUC,0,2024-11-01,2
+525168,Predator,40575458,015 Argeos,Normal,1642.5,Off,Icecreamqueen - EUC,0,2024-11-01,28
+509827,Esoteric Skill Enhancement,53454325,015 Argeos,Normal,1663.33,Off,Elyami - NAW,0,2024-11-01,45
+517848,Esoteric Skill Enhancement,54544157,015 Argeos,Normal,1663.33,Off,Elyami - NAW,0,2024-11-01,47
+518084,Esoteric Skill Enhancement,36125154,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-01,15
+536100,Esoteric Skill Enhancement,62648881,015 Argeos,Normal,1663.33,Off,Elyami - NAW,0,2024-11-02,58
+564146,Esoteric Skill Enhancement,79830892,015 Argeos,Normal,1665.0,On,Elyami - NAW,0,2024-11-03,75
+569467,Esoteric Skill Enhancement,49620627,015 Argeos,Normal,1660.0,Off,Inzana - EUC,0,2024-11-04,38
+572298,Esoteric Skill Enhancement,79100625,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-04,74
+573448,Esoteric Skill Enhancement,75368919,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-04,71
+583142,Esoteric Skill Enhancement,44561962,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-05,29
+583203,Esoteric Skill Enhancement,70456322,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-05,67
+583224,Esoteric Skill Enhancement,90097468,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-05,81
+584756,Esoteric Skill Enhancement,79448847,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-05,75
+591132,Esoteric Skill Enhancement,84915868,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-06,78
+612144,Esoteric Skill Enhancement,86664291,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-07,79
+617395,Esoteric Skill Enhancement,118873762,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-07,92
+617483,Esoteric Skill Enhancement,38798692,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-07,19
+633436,Esoteric Skill Enhancement,93850005,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-08,83
+637636,Esoteric Skill Enhancement,35765488,015 Argeos,Normal,1640.0,All,Cranawardancer - EUC,0,2024-11-08,15
+641777,Esoteric Skill Enhancement,100606677,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-08,86
+648925,Esoteric Skill Enhancement,20710773,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-09,2
+672829,Esoteric Skill Enhancement,92816392,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,82
+672834,Esoteric Skill Enhancement,83199229,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,77
+673021,Esoteric Skill Enhancement,96140968,015 Argeos,Normal,1680.0,All,Elyami - NAW,0,2024-11-11,84
+673303,Esoteric Skill Enhancement,90730166,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,81
+675700,Esoteric Skill Enhancement,113773701,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,90
+676440,Esoteric Skill Enhancement,127113694,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,94
+678069,Esoteric Skill Enhancement,31398864,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-11,9
+681815,Esoteric Skill Enhancement,122562143,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-11,93
+706245,Esoteric Skill Enhancement,119971519,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-12,92
+725172,Esoteric Skill Enhancement,118253739,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-12,92
+790907,Esoteric Skill Enhancement,100186657,015 Argeos,Normal,1680.0,On,Elyami - NAW,0,2024-11-14,86
+834181,Esoteric Skill Enhancement,41304371,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-15,24
+841088,Esoteric Skill Enhancement,106260987,015 Argeos,Normal,1685.0,On,Elyami - NAW,0,2024-11-15,88
+853853,Esoteric Skill Enhancement,50138259,015 Argeos,Normal,1640.0,Off,Cranawardancer - EUC,0,2024-11-16,39
+513655,Remaining Energy,69786828,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-01,43
+514097,Remaining Energy,52653413,015 Argeos,Normal,1660.0,Off,Urgotti - EUC,0,2024-11-01,24
+514409,Remaining Energy,90866697,015 Argeos,Normal,1684.16,On,Elytora - NAW,0,2024-11-01,59
+525238,Remaining Energy,49097548,015 Argeos,Normal,1643.33,Off,Antonym - EUC,0,2024-11-01,20
+525263,Remaining Energy,52557496,015 Argeos,Normal,1640.83,Off,Mithiblade - EUC,0,2024-11-01,24
+528328,Remaining Energy,69563067,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-02,42
+534817,Remaining Energy,55000968,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-02,27
+535093,Remaining Energy,61265380,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-02,34
+535647,Remaining Energy,99948772,015 Argeos,Normal,1684.16,On,Elytora - NAW,0,2024-11-02,65
+551578,Remaining Energy,62052577,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-03,35
+564001,Remaining Energy,86465498,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-03,56
+569438,Remaining Energy,72645569,015 Argeos,Normal,1665.0,Off,Urgotti - EUC,0,2024-11-04,45
+569500,Remaining Energy,63749280,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-04,37
+572282,Remaining Energy,91517135,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-04,60
+572285,Remaining Energy,62031475,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-04,35
+582518,Remaining Energy,64059417,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-05,37
+584760,Remaining Energy,58263817,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-05,30
+591119,Remaining Energy,90266801,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-06,59
+611272,Remaining Energy,111486382,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-07,71
+612060,Remaining Energy,105260548,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-07,68
+614662,Remaining Energy,67930323,015 Argeos,Normal,1660.0,Off,Heavenlyhell - EUC,0,2024-11-07,41
+614673,Remaining Energy,74639593,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-07,47
+614711,Remaining Energy,109751343,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-07,70
+629172,Remaining Energy,62281823,015 Argeos,Normal,1640.0,Off,Piqadb - NAE,0,2024-11-08,35
+633028,Remaining Energy,93642164,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-08,61
+633446,Remaining Energy,64224813,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-08,37
+636047,Remaining Energy,78615842,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-08,51
+641187,Remaining Energy,95136363,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-08,62
+641763,Remaining Energy,108127361,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-08,69
+648312,Remaining Energy,120469432,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-09,76
+648331,Remaining Energy,114312103,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-09,73
+648640,Remaining Energy,94277692,015 Argeos,Normal,1689.16,On,Syntheticlove - EUC,0,2024-11-09,61
+648652,Remaining Energy,58397309,015 Argeos,Normal,1647.5,Off,Antonym - EUC,0,2024-11-09,31
+648672,Remaining Energy,60906842,015 Argeos,Normal,1640.83,Off,Mithiblade - EUC,0,2024-11-09,33
+649010,Remaining Energy,54592455,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-09,26
+649051,Remaining Energy,52376854,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-09,23
+673184,Remaining Energy,73302597,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-11,46
+673285,Remaining Energy,155866029,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-11,88
+673428,Remaining Energy,79300960,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-11,51
+681804,Remaining Energy,138303075,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-11,83
+695699,Remaining Energy,115367836,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-11,73
+706830,Remaining Energy,106509209,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-12,69
+717010,Remaining Energy,69533432,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-12,42
+719144,Remaining Energy,63268080,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-12,36
+725158,Remaining Energy,114659556,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-12,73
+743676,Remaining Energy,66608473,015 Argeos,Normal,1648.33,Off,Antonym - EUC,0,2024-11-13,39
+743748,Remaining Energy,75504022,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-13,48
+745010,Remaining Energy,118015803,015 Argeos,Normal,1690.0,On,Syntheticlove - EUC,0,2024-11-13,75
+760670,Remaining Energy,61358966,015 Argeos,Normal,1640.0,All,Piqadb - NAE,0,2024-11-09,34
+763466,Remaining Energy,124524844,015 Argeos,Normal,1690.0,On,Syntheticlove - EUC,0,2024-11-14,78
+763486,Remaining Energy,65106685,015 Argeos,Normal,1648.33,Off,Antonym - EUC,0,2024-11-14,38
+764446,Remaining Energy,57159556,015 Argeos,Normal,1645.0,Off,Mithiblade - EUC,0,2024-11-14,29
+764471,Remaining Energy,83918236,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-14,55
+790872,Remaining Energy,139136419,015 Argeos,Normal,1685.0,On,Elytora - NAW,0,2024-11-14,83
+809938,Remaining Energy,117892702,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-15,75
+810108,Remaining Energy,64471282,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-15,38
+838678,Remaining Energy,133358412,015 Argeos,Normal,1687.5,On,Elytora - NAW,0,2024-11-15,81
+850135,Remaining Energy,63519895,015 Argeos,Normal,1640.0,Off,Piqadb - NAE,0,2024-11-16,36
+852554,Remaining Energy,116590499,015 Argeos,Normal,1690.0,On,Syntheticlove - EUC,0,2024-11-16,74
+852580,Remaining Energy,67877804,015 Argeos,Normal,1650.0,Off,Antonym - EUC,0,2024-11-16,41
+852583,Remaining Energy,80207653,015 Argeos,Normal,1660.0,On,Heavenlyhell - EUC,0,2024-11-16,52
+852608,Remaining Energy,56476626,015 Argeos,Normal,1645.83,Off,Mithiblade - EUC,0,2024-11-16,28
+852778,Remaining Energy,67934297,015 Argeos,Normal,1660.0,Off,Dvita - EUC,0,2024-11-16,41
+569492,Death Strike,34430220,015 Argeos,Normal,1640.0,Off,Sík - EUC,0,2024-11-04,12
+551504,Order of the Emperor,117869164,015 Argeos,Normal,1680.83,On,Lyndoniel - EUC,0,2024-11-03,86
+569293,Order of the Emperor,87192369,015 Argeos,Normal,1685.83,On,Etrah - EUC,0,2024-11-04,72
+582117,Order of the Emperor,90169935,015 Argeos,Normal,1685.83,On,Etrah - EUC,0,2024-11-05,74
+614038,Order of the Emperor,77687051,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-07,65
+622054,Order of the Emperor,88574009,015 Argeos,Normal,1680.83,On,Lyndoniel - EUC,0,2024-11-07,72
+636951,Order of the Emperor,91443734,015 Argeos,Normal,1660.0,On,Adwaniell - EUC,0,2024-11-08,74
+636970,Order of the Emperor,77601206,015 Argeos,Normal,1660.0,On,Cardlicker - EUC,0,2024-11-08,65
+639745,Order of the Emperor,170627187,015 Argeos,Normal,1686.66,On,Etrah - EUC,0,2024-11-08,96
+672818,Order of the Emperor,125219297,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-11,88
+672822,Order of the Emperor,151400980,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-11,93
+673173,Order of the Emperor,99653166,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-11,79
+725217,Order of the Emperor,87617907,015 Argeos,Normal,1660.0,On,Adwaniell - EUC,0,2024-11-12,72
+725235,Order of the Emperor,85998964,015 Argeos,Normal,1660.0,On,Cardlicker - EUC,0,2024-11-12,71
+617305,Master Summoner,54843164,015 Argeos,Normal,1640.0,Off,Inexpensive - EUC,0,2024-11-07,47
+633460,Master Summoner,48962748,015 Argeos,Normal,1643.33,Off,Inexpensive - EUC,0,2024-11-08,37
+648937,Master Summoner,46114744,015 Argeos,Normal,1643.33,Off,Inexpensive - EUC,0,2024-11-09,32
+673309,Master Summoner,41624845,015 Argeos,Normal,1644.16,Off,Inexpensive - EUC,0,2024-11-11,24
+718421,Master Summoner,46059182,015 Argeos,Normal,1644.16,Off,Inexpensive - EUC,0,2024-11-12,32
+770190,Master Summoner,57509060,015 Argeos,Normal,1644.16,Off,Inexpensive - EUC,0,2024-11-14,52
+853638,Master Summoner,55816080,015 Argeos,Normal,1644.16,Off,Inexpensive - EUC,0,2024-11-16,49
+544482,Barrage Enhancement,47003346,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-02,34
+566167,Barrage Enhancement,51573838,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-04,43
+605937,Barrage Enhancement,50818815,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-07,42
+726231,Barrage Enhancement,58825340,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-13,55
+834246,Barrage Enhancement,63195047,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-15,61
+835434,Barrage Enhancement,72580298,015 Argeos,Normal,1640.0,Off,Phailpewpew - NAE,0,2024-11-15,71
+510270,Deathblow,108658515,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-01,89
+516513,Deathblow,98942459,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-10-31,84
+516520,Deathblow,104743120,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-01,86
+518107,Deathblow,123909176,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-01,93
+534884,Deathblow,109296215,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-02,89
+555957,Deathblow,95822226,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-03,82
+588912,Deathblow,115627656,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-05,91
+617771,Deathblow,124336953,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-07,94
+636883,Deathblow,138711188,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-08,96
+719519,Deathblow,127594975,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-12,94
+802834,Deathblow,144593837,015 Argeos,Normal,1697.5,On,Kiben - NAW,0,2024-11-15,97
+824695,Deathblow,134561280,015 Argeos,Normal,1698.33,On,Kiben - NAW,0,2024-11-15,96
+843628,Deathblow,131819272,015 Argeos,Normal,1698.33,On,Kiben - NAW,0,2024-11-15,95
+843849,Deathblow,145357071,015 Argeos,Normal,1698.33,On,Kiben - NAW,0,2024-11-15,97
+844229,Deathblow,151859850,015 Argeos,Normal,1698.33,On,Kiben - NAW,0,2024-11-15,98
+495607,Grace of the Empress,110658227,015 Argeos,Normal,1685.83,On,Etrah - EUC,0,2024-10-31,75
+502252,Grace of the Empress,62584864,015 Argeos,Normal,1660.0,Off,Adwaniell - EUC,0,2024-10-31,38
+513843,Grace of the Empress,161516202,015 Argeos,Normal,1685.83,On,Etrah - EUC,0,2024-11-01,93
+514055,Grace of the Empress,78610838,015 Argeos,Normal,1660.83,Off,Coriandoli - EUC,0,2024-11-01,55
+540838,Grace of the Empress,150746960,015 Argeos,Normal,1685.83,On,Etrah - EUC,0,2024-11-02,91
+540859,Grace of the Empress,57681806,015 Argeos,Normal,1660.83,Off,Coriandoli - EUC,0,2024-11-02,31
+544366,Grace of the Empress,86474233,015 Argeos,Normal,1641.66,Off,Radishwoman - EUC,0,2024-11-02,62
+551485,Grace of the Empress,74550605,015 Argeos,Normal,1660.0,Off,Adwaniell - EUC,0,2024-11-03,52
+551491,Grace of the Empress,85546582,015 Argeos,Normal,1660.0,Off,Cardlicker - EUC,0,2024-11-03,61
+569301,Grace of the Empress,94456274,015 Argeos,Normal,1660.83,Off,Coriandoli - EUC,0,2024-11-04,67
+582130,Grace of the Empress,60453956,015 Argeos,Normal,1660.83,Off,Coriandoli - EUC,0,2024-11-05,35
+613510,Grace of the Empress,152316981,015 Argeos,Normal,1686.66,On,Etrah - EUC,0,2024-11-07,91
+619754,Grace of the Empress,82769531,015 Argeos,Normal,1653.33,Off,Radishwoman - EUC,0,2024-11-07,59
+623197,Grace of the Empress,79579473,015 Argeos,Normal,1660.0,On,Cardlicker - EUC,0,2024-11-07,56
+623222,Grace of the Empress,82242881,015 Argeos,Normal,1660.0,On,Adwaniell - EUC,0,2024-11-07,59
+636894,Grace of the Empress,65593511,015 Argeos,Normal,1656.66,Off,Radishwoman - EUC,0,2024-11-08,42
+636991,Grace of the Empress,156125632,015 Argeos,Normal,1680.83,On,Lyndoniel - EUC,0,2024-11-08,92
+639720,Grace of the Empress,77958191,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-08,55
+673165,Grace of the Empress,124537974,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-11,82
+716957,Grace of the Empress,95318313,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-12,67
+716965,Grace of the Empress,118989058,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-12,79
+725184,Grace of the Empress,71652075,015 Argeos,Normal,1660.0,Off,Radishwoman - EUC,0,2024-11-12,48
+725250,Grace of the Empress,209269469,015 Argeos,Normal,1680.83,On,Lyndoniel - EUC,0,2024-11-12,98
+786191,Grace of the Empress,140437132,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-14,88
+786245,Grace of the Empress,97098097,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-14,68
+786736,Grace of the Empress,179524755,015 Argeos,Normal,1687.5,On,Etrah - EUC,0,2024-11-14,96
+830799,Grace of the Empress,68083148,015 Argeos,Normal,1660.83,On,Coriandoli - EUC,0,2024-11-15,45
+514039,Robust Spirit,55654210,015 Argeos,Normal,1660.83,Off,Corrri - EUC,0,2024-11-01,64
+540827,Robust Spirit,37583086,015 Argeos,Normal,1660.83,On,Corrri - EUC,0,2024-11-02,27
+544871,Robust Spirit,42232441,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-02,36
+551135,Robust Spirit,84152355,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-03,91
+551527,Robust Spirit,77059412,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-03,87
+563116,Robust Spirit,75018384,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-03,86
+569314,Robust Spirit,58714043,015 Argeos,Normal,1664.16,Off,Corrri - EUC,0,2024-11-04,69
+578123,Robust Spirit,82614710,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-05,90
+582139,Robust Spirit,56006849,015 Argeos,Normal,1664.16,On,Corrri - EUC,0,2024-11-05,65
+592198,Robust Spirit,75894045,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-06,86
+613558,Robust Spirit,52477027,015 Argeos,Normal,1666.66,On,Corrri - EUC,0,2024-11-07,58
+639348,Robust Spirit,88564427,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-08,92
+639384,Robust Spirit,78115405,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-08,88
+639399,Robust Spirit,115794190,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-08,96
+706761,Robust Spirit,79616398,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-12,88
+716946,Robust Spirit,85275171,015 Argeos,Normal,1675.83,On,Corrri - EUC,0,2024-11-12,91
+726948,Robust Spirit,76392775,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-13,87
+836240,Robust Spirit,97544171,015 Argeos,Normal,1660.0,On,Phayr - NAE,0,2024-11-15,94
+534855,Hunger,39465338,015 Argeos,Normal,1640.0,Off,Nakotan - NAW,0,2024-11-02,22
+577483,Hunger,43625737,015 Argeos,Normal,1640.0,Off,Nakotan - NAW,0,2024-11-04,29
+581878,Hunger,51098583,015 Argeos,Normal,1640.0,Off,Piqasin - NAE,0,2024-11-05,44
+588895,Hunger,47524952,015 Argeos,Normal,1640.0,Off,Nakotan - NAW,0,2024-11-05,38
+613477,Hunger,46778171,015 Argeos,Normal,1660.83,On,Corrrrri - EUC,0,2024-11-07,36
+673187,Hunger,64719634,015 Argeos,Normal,1660.83,On,Corrrrri - EUC,0,2024-11-11,65
+719689,Hunger,51114611,015 Argeos,Normal,1641.66,Off,Nakotan - NAW,0,2024-11-12,44
+850234,Hunger,63612438,015 Argeos,Normal,1640.0,Off,Piqasin - NAE,0,2024-11-16,63
+510270,Control,84991925,015 Argeos,Normal,1686.66,On,Liyuuwu - NAW,0,2024-11-01,76
+513763,Control,65992082,015 Argeos,Normal,1660.0,Off,Wannaseemyglaive - EUC,0,2024-11-01,56
+534822,Control,95527110,015 Argeos,Normal,1686.66,On,Liyuuwu - NAW,0,2024-11-02,83
+534848,Control,59578937,015 Argeos,Normal,1660.0,Off,Wannaseemyglaive - EUC,0,2024-11-02,45
+544426,Control,55735523,015 Argeos,Normal,1641.83,Off,Bigusmogus - EUC,0,2024-11-02,39
+551626,Control,67580715,015 Argeos,Normal,1660.0,Off,Wannaseemyglaive - EUC,0,2024-11-03,58
+572327,Control,62938252,015 Argeos,Normal,1660.0,Off,Wannaseemyglaive - EUC,0,2024-11-04,51
+583146,Control,76762839,015 Argeos,Normal,1660.0,Off,Wannaseemyglaive - EUC,0,2024-11-05,70
+588943,Control,93674484,015 Argeos,Normal,1686.66,On,Liyuuwu - NAW,0,2024-11-05,82
+614687,Control,63283420,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-07,52
+617475,Control,78886876,015 Argeos,Normal,1686.66,On,Liyuuwu - NAW,0,2024-11-07,72
+636587,Control,81391324,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-08,73
+636930,Control,71962575,015 Argeos,Normal,1641.83,Off,Bigusmogus - EUC,0,2024-11-08,64
+646510,Control,89744936,015 Argeos,Normal,1686.66,On,Liyuuwu - NAW,0,2024-11-09,80
+649243,Control,66662783,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-09,57
+674268,Control,66333377,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-11,56
+717239,Control,79501712,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-12,72
+725206,Control,73920662,015 Argeos,Normal,1641.83,Off,Bigusmogus - EUC,0,2024-11-12,66
+744122,Control,74806024,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-13,68
+765495,Control,61652256,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-14,49
+809976,Control,79365037,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-15,72
+852616,Control,64838916,015 Argeos,Normal,1660.0,On,Wannaseemyglaive - EUC,0,2024-11-16,54
+518107,Lone Knight,27883647,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-01,15
+564309,Lone Knight,30456093,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-03,20
+572355,Lone Knight,32613652,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-04,24
+725216,Lone Knight,29273777,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-12,18
+791004,Lone Knight,37032939,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-14,33
+842795,Lone Knight,37807755,015 Argeos,Normal,1645.0,Off,Artisanal - NAW,0,2024-11-15,35
+708372,Arthetinean Skill,55279607,015 Argeos,Normal,1662.5,On,Darthlex - NAE,0,2024-11-08,38
+525113,Gravity Training,59941913,015 Argeos,Normal,1640.0,Off,Phæil - NAE,0,2024-11-01,81
+562518,Gravity Training,51569209,015 Argeos,Normal,1640.0,Off,Phæil - NAE,0,2024-11-03,69
+591791,Gravity Training,44593621,015 Argeos,Normal,1640.83,Off,Phæil - NAE,0,2024-11-06,53
+641241,Gravity Training,59091398,015 Argeos,Normal,1640.83,Off,Phæil - NAE,0,2024-11-08,81
+706618,Gravity Training,49303185,015 Argeos,Normal,1640.83,Off,Phæil - NAE,0,2024-11-12,64
+807702,Gravity Training,57466191,015 Argeos,Normal,1640.83,Off,Phæil - NAE,0,2024-11-15,79
+577450,Esoteric Flurry,108936360,015 Argeos,Normal,1696.66,On,Kiben - NAW,0,2024-11-04,87

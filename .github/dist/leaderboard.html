@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.12.0">
+<title>Leaderboard | Logs Ark</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-midnight,alt,wide.6410839f.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-midnight,alt,wide.6410839f.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.bf71f2a1.js">
+<link rel="modulepreload" href="./_observablehq/runtime.dbfb50b3.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.ebaf2d54.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.6c36fb5c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/063eb405.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/c68fbd73.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.bf71f2a1.js";
+import {registerFile} from "./_observablehq/stdlib.ebaf2d54.js";
+
+registerFile("./data/leaderboard.json", {"name":"./data/leaderboard.json","mimeType":"application/json","path":"./_file/data/leaderboard.6a61b9a4.json","lastModified":1732189870064,"size":1410504});
+
+define({id: "24193290", mode: "inline", inputs: ["search","display"], body: async (search,display) => {
+display(await(
+search
+))
+}});
+
+define({id: "7966157b", mode: "inline", inputs: ["Inputs","searchValue","display"], body: async (Inputs,searchValue,display) => {
+display(await(
+Inputs.table(searchValue, {rows: 26})
+))
+}});
+
+define({id: "128bfc8d", inputs: ["FileAttachment"], outputs: ["lbData"], body: async (FileAttachment) => {
+const lbData = await FileAttachment("./data/leaderboard.json").csv();
+
+
+return {lbData};
+}});
+
+define({id: "93fa4761", inputs: ["Inputs","lbData","Generators"], outputs: ["search","searchValue"], body: (Inputs,lbData,Generators) => {
+const search = Inputs.search(lbData, {"placeholder":"Enter blurred name here"});
+
+const searchValue = Generators.input(search);
+
+
+return {search,searchValue};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Logs Ark</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./overview">Overview DPS</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./leaderboard">Highest Gearscores</a></li>
+    <li class="observablehq-link"><a href="./player_summaries">Check Summaries</a></li>
+    <li class="observablehq-link"><a href="./player_parses">Check Parses</a></li>
+    <li class="observablehq-link"><a href="./faq">FAQ</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-95BF1EHTG5"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-95BF1EHTG5');
+</script>
+<style>
+
+	#observablehq-footer{
+		display: table;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#observablehq-sidebar-close {
+		display: none;
+	}
+
+</style>
+<div>
+	<div class="card" style="display: flex;flex-direction: column; align-items: center; justify-content: center;"><observablehq-loading></observablehq-loading><!--:24193290:--></div>
+	<div class="card" style="display: flex;flex-direction: column"><observablehq-loading></observablehq-loading><!--:7966157b:--></div>
+</div>
+<div class="observablehq observablehq--block"><!--:128bfc8d:--></div>
+<div class="observablehq observablehq--block"><!--:93fa4761:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./overview"><span>Overview DPS</span></a><a rel="next" href="./player_summaries"><span>Check Summaries</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-11-21T06:50:52">Nov 21, 2024</a>.</div>
+</footer>
+</div>

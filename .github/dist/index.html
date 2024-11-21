@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.12.0">
+<title>Introduction | Logs Ark</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-midnight,alt,wide.6410839f.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-midnight,alt,wide.6410839f.css">
+<link rel="modulepreload" href="./_observablehq/client.bf71f2a1.js">
+<link rel="modulepreload" href="./_observablehq/runtime.dbfb50b3.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.ebaf2d54.js">
+<link rel="modulepreload" href="./_npm/arquero@7.2.0/f3eb4e3f.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/7055d4c5.js">
+<link rel="modulepreload" href="./_npm/acorn@8.14.0/6d258ba8.js">
+<link rel="modulepreload" href="./_npm/@uwdata/flechette@1.1.1/df6d503a.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e95f898e.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/d44feff9.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/5830b12a.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/84d7b8e9.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/2c0cdfa2.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/626bedc4.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/00c41b5d.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/b5f7cdc6.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/b22c5864.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/6f15f633.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/ef1ec490.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e1ff060.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/5851d7ef.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/dcd02767.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/f1db2593.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/034b7bcb.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/4bb53638.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/bbafde58.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/aa5b35a8.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/32c7fec2.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/567840a0.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/cf9b720b.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/5dcd62f4.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/f8e03c56.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/5bc129e1.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/19c92b44.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/f31b5398.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/8debb4ba.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/4b0cc581.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/5eed35fd.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/e67acb27.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/8ac9039b.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.bf71f2a1.js";
+import {registerFile} from "./_observablehq/stdlib.ebaf2d54.js";
+
+registerFile("./data/home_daily.json", {"name":"./data/home_daily.json","mimeType":"application/json","path":"./_file/data/home_daily.aeb24f93.json","lastModified":1732189863119,"size":2309});
+registerFile("./data/home_distrib.json", {"name":"./data/home_distrib.json","mimeType":"application/json","path":"./_file/data/home_distrib.dd9cd850.json","lastModified":1732189864802,"size":2682927});
+
+define({id: "82b8b699", mode: "inline", inputs: ["resize","dailyLogs","display"], body: async (resize,dailyLogs,display) => {
+display(await(
+resize((width) => dailyLogs({width}))
+))
+}});
+
+define({id: "51629d63", mode: "inline", inputs: ["resize","gsDistrib","display"], body: async (resize,gsDistrib,display) => {
+display(await(
+resize((width) => gsDistrib({width}))
+))
+}});
+
+define({id: "e49b9a38", inputs: ["FileAttachment"], outputs: ["dailyData","distribData"], body: async (FileAttachment) => {
+const dailyData = await FileAttachment("./data/home_daily.json").json();
+const distribData = await FileAttachment("./data/home_distrib.json").json();
+return {dailyData,distribData};
+}});
+
+define({id: "2660ccff", inputs: ["aq","dailyData","d3"], outputs: ["dailyLogs"], body: (aq,dailyData,d3) => {
+function dailyLogs({width} = {}){
+// Load data
+	const aqData = aq.from(dailyData)
+	.derive({
+		serverdate: (d) => aq.op.parse_date(d.serverdate),
+	})
+// Graph dimensions
+	const plotHeight = 250;
+	const margins = { top: 20, right: 20, bottom: 20, left: 20 };
+	const xAxisHeight = 75;
+	const yAxisWidth = 75;
+	const minWidth = 550;
+	const height = plotHeight + margins.top + margins.bottom + xAxisHeight;
+// Set start and end by 1 day
+	const mindate=aq.op.parse_date(d3.min(aqData.array("serverdate")));
+	mindate.setDate(mindate.getDate()-1);
+	const maxdate=aq.op.parse_date(d3.max(aqData.array("serverdate")));
+	maxdate.setDate(maxdate.getDate()+1);
+
+// Declare the x (horizontal position) scale
+	const xLeft = margins.left;
+	const xScale = d3.scaleUtc()
+	.domain([mindate,maxdate])
+	.range([margins.left + yAxisWidth, width - margins.right - yAxisWidth]);
+	const  x_band = d3
+	.scaleBand()
+	.domain(aqData.array("serverdate"))
+	.range([margins.left, width - margins.right])
+	.padding(0.3)
+// Declare the y (vertical position) scale.
+	const yScale = d3.scaleLinear()
+	.domain([0, d3.max(aqData.array("logs"))])
+	.range([height - margins.bottom - xAxisHeight,margins.top]);
+	const yScaleRight = d3.scaleLinear()
+	.domain([0, 100])
+	.range([height - margins.bottom - xAxisHeight,margins.top]);
+
+// Create SVG container
+	const svg = d3
+	.create("svg")
+	.attr("width", width)
+	.attr("height", height)
+	.style("background", "transparent");
+	const g = svg.append("g").selectAll("g").data(aqData.objects()).join("g");
+// Add daily logs bar chart
+	svg.append("g")
+	.attr("fill", "#428089")
+	.selectAll()
+	.data(aqData.objects())
+	.join("rect")
+	.attr("x", (d) => xScale(d.serverdate)-x_band.bandwidth()/2)
+	.attr("y", (d) => yScale(d.logs))
+	.attr("width", x_band.bandwidth())
+	.attr("height", (d) => yScale(0) - yScale(d.logs))
+	.attr("pointer-events", "none");
+// Add ark active passive line chart
+	svg.append("path")
+	.datum(aqData.objects())
+	.attr("fill","none")
+	.attr("d", d3.line()
+		.x(function(d) { return xScale(d.serverdate) })
+		.y(function(d) { return yScaleRight(d.arkactive) })
+		)
+	.attr("stroke", "#b79b8f")
+	.attr("stroke-width", "3px")
+	.attr("pointer-events", "none");
+
+// Create x-axis
+	const xAxis = d3.axisBottom(xScale);
+	var xAxisGroup = svg
+	.append("g")
+	.attr("transform", `translate(0, ${height - margins.bottom - xAxisHeight})`)
+	.attr("pointer-events", "none")
+	.call(xAxis);
+	xAxisGroup
+	.selectAll("text")
+	.attr("font-size", "14px")
+	.attr("visibility", "visible");
+// Create y-axis
+	const yAxis = d3.axisLeft(yScale);
+	const yAxisRight = d3.axisRight(yScaleRight);
+	var yAxisGroup = svg
+	.append("g")
+	.attr("transform", `translate(${margins.left + yAxisWidth}, 0)`)
+	.attr("pointer-events", "none")
+	.attr("color", "#428089")
+	.call(yAxis);
+	var yAxisRightGroup = svg
+	.append("g")
+	.attr("transform", `translate(${width - margins.right - yAxisWidth}, 0)`)
+	.attr("pointer-events", "none")
+	.attr("color", "#b79b8f")
+	.call(yAxisRight);
+	yAxisGroup
+	.selectAll("text")
+	.attr("font-size", "14px")
+	.attr("visibility", "visible")
+	.attr("transform", width > minWidth ? "" : `translate(${-yAxisWidth}, 0)`);
+	yAxisRightGroup
+	.selectAll("text")
+	.attr("font-size", "14px")
+	.attr("visibility", "visible")
+	.attr("transform", width > minWidth ? "" : `translate(${-yAxisWidth}, 0)`);
+
+// Add x-axis label
+	svg
+	.append("text")
+	.attr(
+		"transform", `translate(${(width - yAxisWidth) / 2 + yAxisWidth}, ${height})`
+		)
+	.attr("text-anchor", "middle")
+	.attr("font-size", "24px")
+	.attr("fill", "var(--theme-foreground)")
+	.text("Date");
+// Add y axis label
+	svg
+	.append("text")
+	.attr(
+		"transform", `translate(${margins.left}, ${plotHeight / 2}) rotate(-90.1)`
+		)
+	.attr("text-anchor", "middle")
+	.attr("font-size", "24px")
+	.attr("fill", "#428089")
+	.text("Daily Logs");
+// Add y axis label
+	svg
+	.append("text")
+	.attr(
+		"transform", `translate(${width-margins.right}, ${plotHeight / 2}) rotate(90.1)`
+		)
+	.attr("text-anchor", "middle")
+	.attr("font-size", "24px")
+	.attr("fill", "#b79b8f")
+	.text("Ark Passive Active %");
+
+// Prepare tooltip
+	const tooltip = d3
+	.select("main")
+	.append("div")
+	.attr("class", "tooltip")
+	.style("position", "absolute")
+	.style("opacity", 0);
+// Draw vertical line following mouse
+	svg
+	.append("rect")
+	.attr("class", "mouseLine")
+	.attr("fill", "black")
+	.attr("pointer-events", "none");
+
+// Add invisible box to support mouse over
+	g.append("rect")
+	.attr("class", "rowMouseBox")
+	.attr("x", (d) => xScale(d.serverdate)-x_band.bandwidth()/2)
+	.attr("y", (d) => yScale.range()[1])
+	.attr("width", (d) => x_band.bandwidth())
+	.attr("height", (d) => yScale.range()[0] - margins.bottom)
+	.attr("fill", "transparent")
+	.on("mouseover", (event, d) => {
+		tooltip.style("opacity", 1).html(`
+			<div class="card" style="padding: 7px;" >
+			<div style="display: flex; align-items: center; justify-content: center;">Date; ${d.serverdate.toISOString().split('T')[0]}</div>
+			<div style="display: flex; align-items: center; justify-content: center;">${d.logs} Logs</div>
+			<div style="display: flex; align-items: center; justify-content: center;">${d.arkactive}% Ark Passive Active</div>
+			</div>
+			`);
+// Darken row
+		d3.select(event.target)
+		.attr("fill", "var(--theme-foreground-muted)")
+		.attr("opacity", "0.25");
+// Change mouse
+		d3.select(this).style("cursor", "pointer");
+// Keep updating line
+		svg.selectAll(".mouseLine").attr("visibility", "visible");
+	})
+	.on("mouseout", () => {
+		d3.selectAll(".tooltip").attr("opacity", 0).style("left", "-9999px");
+// Lighten row
+		g.selectAll(".rowMouseBox").attr("fill", "transparent");
+	})
+	.on("mousemove", (event) => {
+		if (event.offsetX > width / 2) {
+			tooltip.style("left", event.offsetX - 140 + "px");
+		} else {
+			tooltip.style("left", event.offsetX + 30 + "px");
+		}
+		tooltip.style("top", event.pageY - 30 + "px");
+	});
+
+	svg
+	.on("mousemove", (event) => {
+		const x = event.offsetX;
+		const y = event.offsetY;
+// Update line
+		svg
+		.selectAll(".mouseLine")
+		.attr("x", margins.left)
+		.attr("y", y + 1)
+		.attr("width", width - yAxisWidth - margins.left)
+		.attr("height", 1)
+		.attr("fill", "var(--theme-foreground-muted)")
+		.attr("opacity", 0.5)
+		.attr("visibility", x > yAxisWidth ? "visible" : "hidden");
+	})
+	.on("mouseout", () => {
+		svg.selectAll(".mouseLine").attr("visibility", "hidden");
+	});
+
+// Return the SVG element.
+	return svg.node()
+}
+return {dailyLogs};
+}});
+
+define({id: "65e1ec02", inputs: ["aq","distribData","d3"], outputs: ["gsDistrib"], body: (aq,distribData,d3) => {
+function gsDistrib ({width} = {}){
+// Load data
+	const dsData = aq.from(distribData)
+
+// Graph dimensions
+	const plotHeight = 250;
+	const margins = { top: 20, right: 20, bottom: 20, left: 20 };
+	const xAxisHeight = 75;
+	const yAxisWidth = 75;
+	const minWidth = 550;
+	const height = plotHeight + margins.top + margins.bottom + xAxisHeight;
+// Set start and end by 1 day
+	const mings=d3.quantile(dsData.array("maxgear"),0.001);
+	const maxgs=d3.max(dsData.array("maxgear"));
+
+// Bin the data.
+	const bins = d3.bin()
+	.thresholds(d3.range(mings, maxgs, 5))
+	.value((d) => d.maxgear)
+	(dsData);
+
+// Declare the x (horizontal position) scale
+	const xLeft = margins.left;
+	const xScale = d3.scaleLinear()
+	.domain([mings,maxgs])
+	.range([margins.left + yAxisWidth, width - margins.right - yAxisWidth]);
+// Declare the y (vertical position) scale.
+	const yScale = d3.scaleLinear()
+	.domain([0, d3.max(bins, (d) => d.length)])
+	.range([height - margins.bottom - xAxisHeight,margins.top]);
+
+// Create SVG container
+	const svg = d3
+	.create("svg")
+	.attr("width", width)
+	.attr("height", height)
+	.style("background", "transparent");
+	const g = svg.append("g").selectAll("g").data(bins).join("g");
+// Add daily logs bar chart
+	svg.append("g")
+	.attr("fill", "#428089")
+	.selectAll()
+	.data(bins)
+	.join("rect")
+	.attr("x", (d) => xScale(d.x0) + 1)
+	.attr("y", (d) => yScale(d.length))
+	.attr("width", (d) => xScale(d.x1) - xScale(d.x0) - 1)
+	.attr("height", (d) => yScale(0) - yScale(d.length))
+	.attr("pointer-events", "none");
+
+// Create x-axis
+	const xAxis = d3.axisBottom(xScale);
+	var xAxisGroup = svg
+	.append("g")
+	.attr("transform", `translate(0, ${height - margins.bottom - xAxisHeight})`)
+	.attr("pointer-events", "none")
+	.call(xAxis);
+	xAxisGroup
+	.selectAll("text")
+	.attr("font-size", "14px")
+	.attr("visibility", "visible");
+// Create y-axis
+	const yAxis = d3.axisLeft(yScale);
+	var yAxisGroup = svg
+	.append("g")
+	.attr("transform", `translate(${margins.left + yAxisWidth}, 0)`)
+	.attr("pointer-events", "none")
+	.attr("color", "#428089")
+	.call(yAxis);
+	yAxisGroup
+	.selectAll("text")
+	.attr("font-size", "14px")
+	.attr("visibility", "visible")
+	.attr("transform", width > minWidth ? "" : `translate(${-yAxisWidth}, 0)`);
+
+// Add x-axis label
+	svg
+	.append("text")
+	.attr(
+		"transform", `translate(${(width - yAxisWidth) / 2 + yAxisWidth}, ${height})`
+		)
+	.attr("text-anchor", "middle")
+	.attr("font-size", "24px")
+	.attr("fill", "var(--theme-foreground)")
+	.text("Gearscore");
+// Add y axis label
+	svg
+	.append("text")
+	.attr(
+		"transform", `translate(${margins.left}, ${plotHeight / 2}) rotate(-90.1)`
+		)
+	.attr("text-anchor", "middle")
+	.attr("font-size", "24px")
+	.attr("fill", "#428089")
+	.text("Characters");
+
+// Prepare tooltip
+	const tooltip = d3
+	.select("main")
+	.append("div")
+	.attr("class", "tooltip")
+	.style("position", "absolute")
+	.style("opacity", 0);
+// Draw vertical line following mouse
+	svg
+	.append("rect")
+	.attr("class", "mouseLine")
+	.attr("fill", "black")
+	.attr("pointer-events", "none");
+
+// Add invisible box to support mouse over
+	g.append("rect")
+	.attr("class", "rowMouseBox")
+	.attr("x", (d) => xScale(d.x0) + 1)
+	.attr("y", (d) => yScale.range()[1])
+	.attr("width", (d) => xScale(d.x1) - xScale(d.x0) - 1)
+	.attr("height", (d) => yScale.range()[0] - margins.bottom)
+	.attr("fill", "transparent")
+	.on("mouseover", (event, d) => {
+		tooltip.style("opacity", 1).html(`
+			<div class="card" style="padding: 7px;" >
+			<div style="display: flex; align-items: center; justify-content: center;">${d.x0}-${d.x1}</div>
+			<div style="display: flex; align-items: center; justify-content: center;">${d.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} Logs</div>
+			</div>
+			`);
+// Darken row
+		d3.select(event.target)
+		.attr("fill", "var(--theme-foreground-muted)")
+		.attr("opacity", "0.25");
+// Change mouse
+		d3.select(this).style("cursor", "pointer");
+// Keep updating line
+		svg.selectAll(".mouseLine").attr("visibility", "visible");
+	})
+	.on("mouseout", () => {
+		d3.selectAll(".tooltip").attr("opacity", 0).style("left", "-9999px");
+// Lighten row
+		g.selectAll(".rowMouseBox").attr("fill", "transparent");
+	})
+	.on("mousemove", (event) => {
+		if (event.offsetX > width / 2) {
+			tooltip.style("left", event.offsetX - 140 + "px");
+		} else {
+			tooltip.style("left", event.offsetX + 30 + "px");
+		}
+		tooltip.style("top", event.pageY - 30 + "px");
+	});
+
+	svg
+	.on("mousemove", (event) => {
+		const x = event.offsetX;
+		const y = event.offsetY;
+// Update line
+		svg
+		.selectAll(".mouseLine")
+		.attr("x", margins.left)
+		.attr("y", y + 1)
+		.attr("width", width - yAxisWidth - margins.left)
+		.attr("height", 1)
+		.attr("fill", "var(--theme-foreground-muted)")
+		.attr("opacity", 0.5)
+		.attr("visibility", x > yAxisWidth ? "visible" : "hidden");
+	})
+	.on("mouseout", () => {
+		svg.selectAll(".mouseLine").attr("visibility", "hidden");
+	});
+
+// Return the SVG element.
+	return svg.node()
+}
+
+
+return {gsDistrib};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Logs Ark</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./overview">Overview DPS</a></li>
+    <li class="observablehq-link"><a href="./leaderboard">Highest Gearscores</a></li>
+    <li class="observablehq-link"><a href="./player_summaries">Check Summaries</a></li>
+    <li class="observablehq-link"><a href="./player_parses">Check Parses</a></li>
+    <li class="observablehq-link"><a href="./faq">FAQ</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-95BF1EHTG5"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-95BF1EHTG5');
+</script>
+<style>
+
+	#observablehq-footer{
+		display: table;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#observablehq-sidebar-close {
+		display: none;
+	}
+
+</style>
+<div>
+	<div class="card" style="display: flex;flex-direction: column"><observablehq-loading></observablehq-loading><!--:82b8b699:--></div>
+	<div class="card" style="display: flex;flex-direction: column"><observablehq-loading></observablehq-loading><!--:51629d63:--></div>
+	<div class="card" style="text-align: center; vertical-align: middle;">Huge thanks to <a href="https://github.com/evilandrex" target="_blank" rel="noopener noreferrer">EvilAndrex</a>, faust, <a href="https://github.com/molenzwiebel" target="_blank" rel="noopener noreferrer">molenzwiebel</a>, <a href="https://github.com/snoww" target="_blank" rel="noopener noreferrer">snow</a>, and all of you who contributed data.</div>
+	<div class="card" style="text-align: center; vertical-align: middle;">You can contact me from my discord kennethnyu. </div>
+</div>
+<div class="observablehq observablehq--block"><!--:e49b9a38:--></div>
+<div class="observablehq observablehq--block"><!--:2660ccff:--></div>
+<div class="observablehq observablehq--block"><!--:65e1ec02:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="next" href="./overview"><span>Overview DPS</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-11-21T06:50:52">Nov 21, 2024</a>.</div>
+</footer>
+</div>
