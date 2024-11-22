@@ -24,6 +24,7 @@ class Config(object):
                         "Liyuuwu - NAW", "Beeßee - NAW", "Yousoroll - NAW", "Soulßeater - NAW", "Nakotan - NAW", "Brençracker - NAW",
                         "Cranabreaker - EUC", "Cranadin - EUC", "Cranawardancer - EUC", "Crana- EUC", "Cranaero - EUC", "Cranaeater - EUC",
                         "Phaillurre - NAE", "Phailpewpew - NAE", "Phaée - NAE", "Phæil - NAE", "Phaérie - NAE", "Phayr - NAE",
+                        "Raiklan - EUC", "Sborraikton - EUC", "Spemetor - EUC", "Spemeteor - EUC",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
