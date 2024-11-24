@@ -4,7 +4,7 @@ import sqlite3
 import sys
 import json
 from General import Config
-databases=[name for name in os.listdir("src/data/databases") if ".db" in name]
+databases=[name for name in os.listdir("src/data/databases") if "Snow_" in name]
 
 main_df=pd.DataFrame()
 for db in databases:
