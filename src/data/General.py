@@ -27,6 +27,7 @@ class Config(object):
                         "Raiklan - EUC", "Sborraikton - EUC", "Spemetor - EUC", "Spemeteor - EUC",
                         "Mira - NAE",
                         "Rousété - EUC", "Soulizumi - EUC", "Betterthanjag - EUC",
+                        "Baejinsol - NAE", "Byeolshibar - NAE", "Themoonrises - NAE", "Davê - NAE",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
