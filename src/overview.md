@@ -108,8 +108,10 @@ describe.push(...await FileAttachment ("./data/data_aegirg2.json").csv({"typed":
 // describe.push(...await FileAttachment ("./data/data_argeos01.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_argeos02.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_argeos03.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_behemothg1.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_behemothg2.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_behemothg1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_behemothg1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_behemothg2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_behemothg2_02.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_echidnag1.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_echidnag2.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg1.json").csv({"typed": true}));
@@ -268,8 +270,10 @@ const encounterSelect = Inputs.select(
     <div class="card" id="id_aegirg2nm">${chartGraph("Aegir, the Oppressor","Normal",1660,1680,aegirg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <!-- <div class="card" id="id_argeos_1680_1740">${chartGraph("Argeos","Normal",1680,1740,argeos,{classHighlight},{arkPassiveStatus},{width})}</div> -->
     <!-- <div class="card" id="id_argeos_1640_1679">${chartGraph("Argeos","Normal",1640,1679,argeos,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_behemothg1nm">${chartGraph("Behemoth, the Storm Commander","Normal",1620,1740,behemothg1nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_behemothg2nm">${chartGraph("Behemoth, Cruel Storm Slayer","Normal",1620,1740,behemothg2nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
+    <div class="card" id="id_behemothg1nm">${chartGraph("Behemoth, the Storm Commander","Normal",1680,1740,behemothg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_behemothg2nm">${chartGraph("Behemoth, Cruel Storm Slayer","Normal",1680,1740,behemothg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_behemothg1nm">${chartGraph("Behemoth, the Storm Commander","Normal",1620,1680,behemothg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_behemothg2nm">${chartGraph("Behemoth, Cruel Storm Slayer","Normal",1620,1680,behemothg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_echidnag1hm">${chartGraph("Red Doom Narkiel","Hard",1630,1680,echidnag1hm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_echidnag2hm">${chartGraph("Covetous Master Echidna","Hard",1630,1680,echidnag2hm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_echidnag1nm">${chartGraph("Red Doom Narkiel","Normal",1620,1640,echidnag1nm,{classHighlight},{arkPassiveStatus},{width})}</div>

@@ -5,7 +5,7 @@ import sqlite3
 import sys
 import json
 from General import Config
-database="src/data/databases/Snow_BehemothG1.db"
+database="src/data/databases/Snow_BehemothG2.db"
 
 configs=Config()
 whitelisted=configs.whitelist
@@ -27,6 +27,8 @@ main_df=pd.read_sql_query(query, conn)
 main_df["dps"]=main_df["dps"].astype(int)
 main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})
+# Subset
+main_df=main_df[100000:].reset_index(drop=True)
 # Turn to dict records style
 if main_df.shape[0]>0:
       main_df.set_index("raidId").to_csv(sys.stdout)
