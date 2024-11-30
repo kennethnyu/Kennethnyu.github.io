@@ -29,6 +29,7 @@ class Config(object):
                         "Rousété - EUC", "Soulizumi - EUC", "Betterthanjag - EUC",
                         "Baejinsol - NAE", "Byeolshibar - NAE", "Themoonrises - NAE", "Davê - NAE",
                         "Busyuser - EUC", "Nepsoul - EUC", "Neparbard - EUC", "Nuiyyuser - EUC", "Ultragigashield - EUC", "Mctrifftniewas - EUC",
+                        "Miamieater - EUC", "Miamidab - EUC",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
