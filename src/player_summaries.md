@@ -7,21 +7,21 @@ theme: [dashboard, midnight]
 
 ```js
 var allData = await FileAttachment("./data/parse_aegirg1.json").csv({"typed":true});
-allData.push(...await FileAttachment ("./data/parse_aegirg2.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_argeos.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_behemothg1.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_behemothg2.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_echidnag1.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_echidnag2.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_thaemineg1.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_thaemineg2.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_thaemineg3.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_thaemineg4.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_veskal.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_ivoryg1.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_ivoryg2.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_ivoryg4.json").csv({"typed": true}));
-allData.push(...await FileAttachment ("./data/parse_gargadeth.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_aegirg2.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_argeos.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_behemothg1.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_behemothg2.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_echidnag1.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_echidnag2.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_thaemineg1.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_thaemineg2.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_thaemineg3.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_thaemineg4.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_veskal.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_ivoryg1.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_ivoryg2.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_ivoryg4.json").csv({"typed": true}));
+// allData.push(...await FileAttachment ("./data/parse_gargadeth.json").csv({"typed": true}));
 ```
 
 

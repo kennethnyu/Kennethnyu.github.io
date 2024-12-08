@@ -38,6 +38,8 @@ jobs:
           python-version: "3.12"
           cache: "pip" # caching pip dependencies
 
+      # Might need pip install --upgrade pip
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 

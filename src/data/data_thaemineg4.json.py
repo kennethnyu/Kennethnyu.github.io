@@ -5,24 +5,16 @@ import sqlite3
 import sys
 import json
 from General import Config
-database="src/data/databases/Snow_ThaemineG4.db"
+r_db="src/data/databases/Snow_ThaemineG4_raids_01.parquet"
+p_db="src/data/databases/Snow_ThaemineG4_players_01.parquet"
 
 configs=Config()
 whitelisted=configs.whitelist
 spec_to_color=configs.spec_to_color
 
-conn=sqlite3.connect(database)
-query="""
-SELECT p.raidId, p.spec, p.dps, p.boss, p.difficulty, p.gearscore, p.arkPassiveActive AS arkPsvActv
-FROM players AS p
-LEFT JOIN raids AS r ON p.raidId=r.raidId
-WHERE p.class NOT IN ('Artist','Bard','Paladin')
-      AND p.spec!='Princess'
-      AND p.isDead=0
-ORDER BY p.raidId, p.name
-"""
-# Read
-main_df=pd.read_sql_query(query, conn)
+main_df=pd.read_parquet(p_db,filters=[("class","not in",['Artist','Bard','Paladin']),
+                                      ("spec","!=","Princess"),
+                                      ("isDead","=",0)]).rename(columns={"arkPassiveActive":"arkPsvActv"})
 # Clean up
 main_df["dps"]=main_df["dps"].astype(int)
 main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)

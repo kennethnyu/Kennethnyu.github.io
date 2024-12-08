@@ -1,30 +1,33 @@
+import datetime as dt
 import os
 import pandas as pd
 import sqlite3
 import sys
-import json
 from General import Config
-databases=[name for name in os.listdir("src/data/databases") if ".db" in name]
-
+# Find databases and sort so we can zip them and join/merge
+databases=[name for name in os.listdir("src/data/databases") if "Snow_" in name]
+raids_list=["src/data/databases/{}".format(db) for db in databases if "_raids_" in db]
+players_list=["src/data/databases/{}".format(db) for db in databases if "_players_" in db]
+raids_list.sort()
+players_list.sort()
+# Iterate and add together
 main_df=pd.DataFrame()
-for db in databases:
-    conn=sqlite3.connect("src/data/databases/{}".format(db))
-    query="""
-    SELECT p.name, p.spec, r.region, MAX(p.gearScore) AS maxgear
-    FROM players AS p
-    LEFT JOIN raids AS r ON p.raidId=r.raidId
-    WHERE r.timestamp/1000 >= (TIME('NOW')-(7*86400))
-          AND p.name NOT LIKE '%#%'
-    GROUP BY p.name, p.spec, r.region
-    """
-    df=pd.read_sql_query(query, conn) 
+for r_db, p_db in zip(raids_list, players_list):
+    raids=pd.read_parquet(r_db)
+    players=pd.read_parquet(p_db)
+    # Filter recent 7 days and those with names so it's unique
+    raids=raids[raids["timestamp"]>=(dt.datetime.timestamp(dt.datetime.now())-(7*86400))*1000].reset_index()[["raidId","region"]]
+    df=raids.merge(players,how="left")
+    df=df[df["name"].apply(lambda x: True if "#" not in x else False)].reset_index(drop=True)
+
     if df.shape[0]>0:
+        df=df.groupby(["name","spec","region"])["gearscore"].max().reset_index().rename(columns={"gearscore":"maxgear"})
         main_df=pd.concat([main_df,df]).reset_index(drop=True)
 
 # Group by name and spec
-main_df=main_df.groupby(["name","spec"]).max().reset_index()
+main_df=main_df.groupby(["name","spec","region"]).max().reset_index()
 # Sort by most gear
-main_df=main_df.sort_values("maxgear",ascending=False).head(30000).reset_index(drop=True)
+main_df=main_df.sort_values("maxgear",ascending=False).head(50000).reset_index(drop=True)
 # Obfus te names
 def obfuscate_name(name):
     middlename="".join(["*" for n in name[1:-1]])

@@ -1,5 +1,5 @@
 .DS_Store
 node_modules/
 yarn-error.log
-src/data/databases/Errors.db
-src/data/databases/RaidList.db
+src/data/databases/Errors_raids.parquet
+src/data/databases/RaidList_player_names.parquet
