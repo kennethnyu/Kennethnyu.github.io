@@ -1,3 +1,4 @@
+import datetime as dt
 import os
 import numpy as np
 import pandas as pd
@@ -5,26 +6,23 @@ import sqlite3
 import sys
 import json
 from General import Config
-database="src/data/databases/Snow_VoldisG3.db"
-
+# Configs
+r_db="src/data/databases/Snow_VoldisG3_raids_01.parquet"
+p_db="src/data/databases/Snow_VoldisG3_players_01.parquet"
 configs=Config()
 whitelisted=configs.whitelist
 spec_to_color=configs.spec_to_color
 boss_order_dict=configs.boss_order_dict
 
-conn=sqlite3.connect(database)
-query="""
-SELECT p.raidId, p.spec, p.dps, p.boss, p.difficulty, p.gearscore, p.arkPassiveActive AS arkPsvActv,
-       p.name || ' - ' || r.region AS char, p.isDead, DATE(ROUND(r.timestamp / 1000), 'unixepoch') AS serverdate
-FROM players AS p
-LEFT JOIN raids AS r ON p.raidId=r.raidId
-WHERE p.class NOT IN ('Artist','Bard','Paladin')
-      AND p.spec!='Princess'
-ORDER BY p.raidId, p.name
-"""
-# Read
-main_df=pd.read_sql_query(query, conn)
-# Clean up
+# Read and clean data
+raids=pd.read_parquet(r_db)[["raidId","region","timestamp"]]
+players=pd.read_parquet(p_db,filters=[("class","not in",['Artist','Bard','Paladin']),
+                                      ("spec","!=","Princess")]).rename(columns={"arkPassiveActive":"arkPsvActv"})
+raids["serverdate"]=raids["timestamp"].apply(lambda x: dt.datetime.fromtimestamp(int(x/1000)).date()).astype("str")
+cols=["raidId","spec","dps","boss","difficulty","gearscore","arkPsvActv","char","isDead","serverdate"]
+main_df=raids.merge(players,how="left")
+main_df["char"]=main_df["name"]+" - "+main_df["region"]
+main_df=main_df[main_df["char"].notnull()][cols].reset_index(drop=True)
 main_df["dps"]=main_df["dps"].astype(int)
 main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})

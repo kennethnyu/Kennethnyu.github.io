@@ -27,12 +27,6 @@ main_df["dps"]=main_df["dps"].astype(int)
 main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})
 main_df["boss"]=main_df["boss"].map(boss_order_dict)
-def obfuscate_item(item, char, whitelisted):
-      if char in whitelisted:
-            return item
-      else:
-            return "***"
-main_df["char"]=main_df.apply(lambda x: obfuscate_item(x.char, x.char, whitelisted), axis=1)
 # Create new final dataframe
 def get_parse(dps,arr):
       return int((arr<dps).mean() * 100)
@@ -44,7 +38,7 @@ for i,row in main_df[["difficulty","spec"]].drop_duplicates().iterrows():
       step_df["score"]=step_df["dps"].apply(lambda x: get_parse(x,array))
       final_df=pd.concat([final_df,step_df])
 # Remove useless
-final_df=final_df[final_df["char"]!="***"].reset_index(drop=True)
+final_df=final_df[final_df["char"].apply(lambda x: True if "#" not in x else False)].reset_index(drop=True)
 # Turn to dict records style
 if final_df.shape[0]>0:
       final_df.set_index("raidId").to_csv(sys.stdout)
