@@ -20,7 +20,8 @@ for r_db, p_db in zip(raids_list, players_list):
     raids=raids[raids["timestamp"]>=(dt.datetime.timestamp(dt.datetime.now())-(7*86400))*1000].reset_index()
     players=players[players["raidId"].isin(list(raids["raidId"].unique()))].reset_index(drop=True)
     players=players[players["name"].apply(lambda x: True if "#" not in x else False)].reset_index(drop=True)
-
+    print(players.shape[0])
+    print(players)
     if players.shape[0]>0:
         df=players.groupby(["name","spec"])["gearscore"].max().reset_index().rename(columns={"gearscore":"maxgear"})
         main_df=pd.concat([main_df,df]).reset_index(drop=True)
