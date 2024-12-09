@@ -28,6 +28,7 @@ class Config(object):
                         "Mira - NAE",
                         "Rousété - EUC", "Soulizumi - EUC", "Betterthanjag - EUC",
                         "Baejinsol - NAE", "Byeolshibar - NAE", "Themoonrises - NAE", "Davê - NAE",
+                        "Fnd - EUC", "Fndtwo - EUC", "Fndthree - EUC", "Fndfour - EUC", "Fndfive - EUC", "Fndsix - EUC",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
