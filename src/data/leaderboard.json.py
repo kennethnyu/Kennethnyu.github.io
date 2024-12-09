@@ -16,6 +16,7 @@ for r_db, p_db in zip(raids_list, players_list):
     raids=pd.read_parquet(r_db)
     players=pd.read_parquet(p_db)
     # Filter recent 7 days and those with names so it's unique
+    raids=raids[raids["statusCode"]==200].reset_index(drop=True)
     raids=raids[raids["timestamp"]>=(dt.datetime.timestamp(dt.datetime.now())-(7*86400))*1000].reset_index()[["raidId","region"]]
     df=raids.merge(players,how="left")
     df=df[df["name"].apply(lambda x: True if "#" not in x else False)].reset_index(drop=True)
