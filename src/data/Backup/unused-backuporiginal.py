@@ -32,7 +32,7 @@ query="""
 SELECT spec, dps FROM players
 WHERE class NOT IN ('Artist','Bard','Paladin')
 AND spec!='Princess'
-AND gearscore<1680
+AND gearScore<1680
 """
 df=pd.read_sql_query(query, conn)
 # Display in millions, rounded to 2 decimals

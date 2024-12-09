@@ -334,7 +334,7 @@ const encounterSelect = Inputs.select(
 
     const data = aq.from(describe)
     .filter(aq.escape((d) => d.boss == name && d.difficulty == difficulty))
-    .filter(aq.escape((d) => d.gearscore >= minilevel && d.gearscore <= maxilevel))
+    .filter(aq.escape((d) => d.gearScore >= minilevel && d.gearScore <= maxilevel))
     .filter(aq.escape((d) => (arkPassivesValue != "All" ? d.arkPsvActv == arkPassivesValue : true)))
 
     const logsCount = data.numRows()

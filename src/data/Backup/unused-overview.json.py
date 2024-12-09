@@ -34,7 +34,7 @@ main_df=pd.DataFrame()
 for db in databases:
     conn=sqlite3.connect("src/data/databases/{}".format(db))
     query="""
-    SELECT raidId, spec, dps, boss, difficulty, gearscore, arkPassiveActive FROM players
+    SELECT raidId, spec, dps, boss, difficulty, gearScore, arkPassiveActive FROM players
     WHERE class NOT IN ('Artist','Bard','Paladin')
           AND spec!='Princess'
           AND isDead=0

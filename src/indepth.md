@@ -90,7 +90,7 @@ const height = plotHeight + margins.top + margins.bottom + xAxisHeight;
 
 const data = await aq.from(describe)
 .filter(d => d.boss == "Argeos")
-.filter(aq.escape((d) => d.gearscore >= iLevelMin && d.gearscore <= iLevelMax))
+.filter(aq.escape((d) => d.gearScore >= iLevelMin && d.gearScore <= iLevelMax))
 
 const logsCount = data.numRows()
 ;

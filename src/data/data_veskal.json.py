@@ -13,7 +13,7 @@ spec_to_color=configs.spec_to_color
 
 conn=sqlite3.connect(database)
 query="""
-SELECT p.raidId, p.spec, p.dps, p.boss, p.difficulty, p.gearscore, p.arkPassiveActive AS arkPsvActv
+SELECT p.raidId, p.spec, p.dps, p.boss, p.difficulty, p.gearScore, p.arkPassiveActive AS arkPsvActv
 FROM players AS p
 LEFT JOIN raids AS r ON p.raidId=r.raidId
 WHERE p.class NOT IN ('Artist','Bard','Paladin')

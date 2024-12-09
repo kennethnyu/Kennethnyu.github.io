@@ -34,7 +34,7 @@ main_df=pd.DataFrame()
 for db in databases:
     conn=sqlite3.connect("src/data/databases/{}".format(db))
     query="""
-    SELECT spec, dps, boss, difficulty, gearscore FROM players
+    SELECT spec, dps, boss, difficulty, gearScore FROM players
     WHERE class NOT IN ('Artist','Bard','Paladin')
     AND spec!='Princess'
     LIMIT 10000

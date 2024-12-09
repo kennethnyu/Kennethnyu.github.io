@@ -283,16 +283,16 @@ const searchedSummaryTable = Inputs.table(searchedSummaryData,
       d3.quantile(searchedSummaryData, 0.20, (d) => d.dps),
       d3.quantile(searchedSummaryData, 0.10, (d) => d.dps)
       ),
-    gearscore: gradeNum(
-      d3.quantile(searchedSummaryData, 0.90, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.80, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.70, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.60, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.50, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.40, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.30, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.20, (d) => d.gearscore),
-      d3.quantile(searchedSummaryData, 0.10, (d) => d.gearscore)
+    gearScore: gradeNum(
+      d3.quantile(searchedSummaryData, 0.90, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.80, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.70, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.60, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.50, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.40, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.30, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.20, (d) => d.gearScore),
+      d3.quantile(searchedSummaryData, 0.10, (d) => d.gearScore)
       ),
     arkPsvActv: arkPsvActv_format,
     isDead: isDead_format,
