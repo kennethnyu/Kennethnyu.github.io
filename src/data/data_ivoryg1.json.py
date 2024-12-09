@@ -25,7 +25,7 @@ ORDER BY p.raidId, p.name
 main_df=pd.read_sql_query(query, conn)
 # Clean up
 main_df["dps"]=main_df["dps"].astype(int)
-main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)
+main_df["gearScore"]=main_df["gearScore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})
 # Turn to dict records style
 if main_df.shape[0]>0:

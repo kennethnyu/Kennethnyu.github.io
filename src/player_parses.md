@@ -179,7 +179,7 @@ data[i].score>=100 // Legendary
 const searchedTable = Inputs.table(searchedData, 
 {
   columns: [
-    "char","spec","boss","difficulty","dps","gearscore","arkPsvActv","isDead","serverdate","score","raidId"
+    "char","spec","boss","difficulty","dps","gearScore","arkPsvActv","isDead","serverdate","score","raidId"
     ],
   header: {
     "char":"Character",
@@ -187,7 +187,7 @@ const searchedTable = Inputs.table(searchedData,
     "boss":"Boss",
     "difficulty":"Difficulty",
     "dps":"DPS",
-    "gearscore":"GS",
+    "gearScore":"GS",
     "arkPsvActv":"Ark Passive",
     "isDead":"Dead",
     "serverdate":"Date",

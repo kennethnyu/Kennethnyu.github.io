@@ -21,7 +21,7 @@ for r_db, p_db in zip(raids_list, players_list):
     df=df[df["name"].apply(lambda x: True if "#" not in x else False)].reset_index(drop=True)
 
     if df.shape[0]>0:
-        df=df.groupby(["name","spec","region"])["gearscore"].max().reset_index().rename(columns={"gearscore":"maxgear"})
+        df=df.groupby(["name","spec","region"])["gearScore"].max().reset_index().rename(columns={"gearScore":"maxgear"})
         main_df=pd.concat([main_df,df]).reset_index(drop=True)
 
 # Group by name and spec

@@ -71,5 +71,3 @@ class Config(object):
                               "Argeos":"015 Argeos",
                               "Akkan, Lord of Death":"016 Aegir G1",
                               "Aegir, the Oppressor":"017 Aegir G2",}
-
-

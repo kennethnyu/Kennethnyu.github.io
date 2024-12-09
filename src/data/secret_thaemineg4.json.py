@@ -19,12 +19,12 @@ raids=pd.read_parquet(r_db)[["raidId","region","timestamp"]]
 players=pd.read_parquet(p_db,filters=[("class","not in",['Artist','Bard','Paladin']),
                                       ("spec","!=","Princess")]).rename(columns={"arkPassiveActive":"arkPsvActv"})
 raids["serverdate"]=raids["timestamp"].apply(lambda x: dt.datetime.fromtimestamp(int(x/1000)).date()).astype("str")
-cols=["raidId","spec","dps","boss","difficulty","gearscore","arkPsvActv","char","isDead","serverdate"]
+cols=["raidId","spec","dps","boss","difficulty","gearScore","arkPsvActv","char","isDead","serverdate"]
 main_df=raids.merge(players,how="left")
 main_df["char"]=main_df["name"]+" - "+main_df["region"]
 main_df=main_df[main_df["char"].notnull()][cols].reset_index(drop=True)
 main_df["dps"]=main_df["dps"].astype(int)
-main_df["gearscore"]=main_df["gearscore"].astype(float).round(2)
+main_df["gearScore"]=main_df["gearScore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})
 main_df["boss"]=main_df["boss"].map(boss_order_dict)
 # Create new final dataframe

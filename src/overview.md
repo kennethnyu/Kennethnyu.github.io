@@ -644,7 +644,7 @@ return acc;
             (log) => log.dps == d.max && log.spec === d.spec
             )
           )
-        .array("gearscore")[0]
+        .array("gearScore")[0]
       }</div>
         <div>https://logs.snow.xyz/logs/${
         data
