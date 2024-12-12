@@ -28,6 +28,9 @@ class Config(object):
                         "Mira - NAE",
                         "Rousété - EUC", "Soulizumi - EUC", "Betterthanjag - EUC",
                         "Baejinsol - NAE", "Byeolshibar - NAE", "Themoonrises - NAE", "Davê - NAE",
+                        "Busyuser - EUC", "Nepsoul - EUC", "Neparbard - EUC", "Nuiyyuser - EUC", "Ultragigashield - EUC", "Mctrifftniewas - EUC",
+                        "Miamieater - EUC", "Miamidab - EUC",
+                        "Unreflective - NAW", "Lacerative - NAW", "Precipitative - NAW", "Obliterative - NAW",   
                         "Fnd - EUC", "Fndtwo - EUC", "Fndthree - EUC", "Fndfour - EUC", "Fndfive - EUC", "Fndsix - EUC",
                          ]
         # Spec to color dictionary
@@ -53,7 +56,7 @@ class Config(object):
                             "Barrage Enhancement":"#33670B","Firepower Enhancement":"#33670B",
                             "Arthetinean Skill":"#3B4292","Evolutionary Legacy":"#3B4292",
                             "Peacemaker":"#6BCEC2","Time to Hunt":"#6BCEC2",
-                            "Drizzle":"#084BA3","Wind Fury":"#084BA3"}
+                            "Drizzle":"#084BA3","Wind Fury":"#084BA3",}
         # Spec to color dictionary
         self.boss_order_dict={"Gargadeth":"001 Gargadeth",
                               "Kaltaya, the Blooming Chaos":"002 Ivory G1",
@@ -71,3 +74,5 @@ class Config(object):
                               "Argeos":"015 Argeos",
                               "Akkan, Lord of Death":"016 Aegir G1",
                               "Aegir, the Oppressor":"017 Aegir G2",}
+
+
