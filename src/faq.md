@@ -6,13 +6,13 @@ theme: [dashboard, midnight]
 
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-95BF1EHTG5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5HVJ595HD3"></script>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	gtag('config', 'G-95BF1EHTG5');
+  gtag('config', 'G-5HVJ595HD3');
 </script>
 
 
