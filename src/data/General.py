@@ -32,7 +32,8 @@ class Config(object):
                         "Miamieater - EUC", "Miamidab - EUC",
                         "Unreflective - NAW", "Lacerative - NAW", "Precipitative - NAW", "Obliterative - NAW",   
                         "Fnd - EUC", "Fndtwo - EUC", "Fndthree - EUC", "Fndfour - EUC", "Fndfive - EUC", "Fndsix - EUC",
-                        "Antigóne - NAE", "Cooletrain - NAE", "Lyriaoflagos - NAE", "Vívienné - NAE"
+                        "Antigóne - NAE", "Cooletrain - NAE", "Lyriaoflagos - NAE", "Vívienné - NAE",
+                        "Antikuna - EUC", "Vagans - EUC", "Scenicus - EUC",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
