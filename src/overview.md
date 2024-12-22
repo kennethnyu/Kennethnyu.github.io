@@ -112,8 +112,10 @@ describe.push(...await FileAttachment ("./data/data_behemothg1_01.json").csv({"t
 describe.push(...await FileAttachment ("./data/data_behemothg1_02.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_behemothg2_01.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_behemothg2_02.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag1.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag2.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_echidnag1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_echidnag1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_echidnag2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_echidnag2_02.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg1.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg2.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg3.json").csv({"typed": true}));
