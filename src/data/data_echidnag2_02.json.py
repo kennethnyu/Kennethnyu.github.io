@@ -20,7 +20,7 @@ main_df["dps"]=main_df["dps"].astype(int)
 main_df["gearScore"]=main_df["gearScore"].astype(float).round(2)
 main_df["arkPsvActv"]=main_df["arkPsvActv"].fillna(-1).astype(int).map({-1:"All",0:"Off",1:"On"})
 # Subset
-main_df=main_df[:100000].reset_index(drop=True)
+main_df=main_df[100000:200000].reset_index(drop=True)
 # Turn to dict records style
 if main_df.shape[0]>0:
       main_df.set_index("raidId").to_csv(sys.stdout)
