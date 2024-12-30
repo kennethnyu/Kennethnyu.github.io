@@ -35,6 +35,7 @@ class Config(object):
                         "Antigóne - NAE", "Cooletrain - NAE", "Lyriaoflagos - NAE", "Vívienné - NAE",
                         "Antikuna - EUC", "Vagans - EUC", "Scenicus - EUC",
                         "Grapeloafie - NAE", "Cocoloafie - NAE",
+                        "Swira - NAE", "Swoal - NAE", "Swico - NAE", "Swizu - NAE", "Swaoz- NAE",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
