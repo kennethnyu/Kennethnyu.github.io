@@ -173,14 +173,77 @@ describe.push(...await FileAttachment ("./data/data_EchidnaG2_07.json").csv({"ty
 describe.push(...await FileAttachment ("./data/data_EchidnaG2_08.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_EchidnaG2_09.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_EchidnaG2_10.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_thaemineg1.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_thaemineg2.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_thaemineg3.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_thaemineg4.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG3_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG4_10.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_veskal.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_ivoryg1.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_ivoryg2.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_ivoryg4.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG1_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG2_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_VoldisG4_10.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_gargadeth.json").csv({"typed": true}));
 
 
@@ -345,12 +408,12 @@ const encounterSelect = Inputs.select(
     <!-- <div class="card" id="id_thaemineg2nm">${chartGraph("Valinak, Herald of the End","Normal",1610,1650,thaemineg2nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
     <!-- <div class="card" id="id_thaemineg3nm">${chartGraph("Thaemine the Lightqueller","Normal",1610,1650,thaemineg3nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
     <!-- <div class="card" id="id_veskal">${chartGraph("Veskal","Normal",1630,1740,veskal,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg1hm">${chartGraph("Kaltaya, the Blooming Chaos","Hard",1620,1740,ivoryg1hm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg2hm">${chartGraph("Rakathus, the Lurking Arrogance","Hard",1620,1740,ivoryg2hm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg3hm">${chartGraph("Lazaram, the Trailblazer","Hard",1620,1740,ivoryg3hm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg1nm">${chartGraph("Kaltaya, the Blooming Chaos","Normal",1600,1650,ivoryg1nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg2nm">${chartGraph("Rakathus, the Lurking Arrogance","Normal",1600,1650,ivoryg2nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_ivoryg3nm">${chartGraph("Lazaram, the Trailblazer","Normal",1600,1650,ivoryg3nm,{classHighlight},{arkPassiveStatus},{width})}</div> -->
+    <div class="card" id="id_ivoryg1hm">${chartGraph("Kaltaya, the Blooming Chaos","Hard",1620,1740,ivoryg1hm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_ivoryg2hm">${chartGraph("Rakathus, the Lurking Arrogance","Hard",1620,1740,ivoryg2hm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_ivoryg3hm">${chartGraph("Lazaram, the Trailblazer","Hard",1620,1740,ivoryg3hm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_ivoryg1nm">${chartGraph("Kaltaya, the Blooming Chaos","Normal",1600,1650,ivoryg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_ivoryg2nm">${chartGraph("Rakathus, the Lurking Arrogance","Normal",1600,1650,ivoryg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_ivoryg3nm">${chartGraph("Lazaram, the Trailblazer","Normal",1600,1650,ivoryg3nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <!-- <div class="card" id="id_gargardeth">${chartGraph("Gargadeth","Normal",1610,1650,gargadeth,{classHighlight},{arkPassiveStatus},{width})}</div> -->
   </div>
 
