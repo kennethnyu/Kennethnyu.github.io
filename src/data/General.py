@@ -36,7 +36,9 @@ class Config(object):
                         "Antikuna - EUC", "Vagans - EUC", "Scenicus - EUC",
                         "Grapeloafie - NAE", "Cocoloafie - NAE",
                         "Swira - NAE", "Swoal - NAE", "Swico - NAE", "Swizu - NAE", "Swaoz- NAE",
-                         ]
+                        "Lovedami - NAE", "Cütedami - NAE", "Wujeonging - NAE", "Sojuëater - NAE",  "Liebedami - NAE", "Sénjumaru - NAE",
+                        "Basedplayer - NAE", "Blastman - NAE", "Ambatupunch - NAE", "Basedlad - NAE", "Basedchamp - NAE", "Basedstabber - NAE",
+                        ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
                             "Gravity Training":"#7B9AA2","Rage Hammer":"#7B9AA2",
