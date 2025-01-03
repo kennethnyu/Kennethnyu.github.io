@@ -103,19 +103,76 @@ theme: [dashboard, midnight]
 
 
 ```js
-const describe = await FileAttachment("./data/data_aegirg1.json").csv({"typed": true});
-describe.push(...await FileAttachment ("./data/data_aegirg2.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_argeos01.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_argeos02.json").csv({"typed": true}));
-// describe.push(...await FileAttachment ("./data/data_argeos03.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_behemothg1_01.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_behemothg1_02.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_behemothg2_01.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_behemothg2_02.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag1_01.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag1_02.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag2_01.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_echidnag2_02.json").csv({"typed": true}));
+const describe = await FileAttachment("./data/data_AegirG1_01.json").csv({"typed": true});
+describe.push(...await FileAttachment ("./data/data_AegirG1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG1_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_AegirG2_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_Argeos_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG1_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_BehemothG2_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG1_10.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_02.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_03.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_04.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_05.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_06.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_07.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_08.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_09.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_EchidnaG2_10.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg1.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg2.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg3.json").csv({"typed": true}));
@@ -270,8 +327,8 @@ const encounterSelect = Inputs.select(
     <div class="card" id="id_aegirg2hm">${chartGraph("Aegir, the Oppressor","Hard",1680,1740,aegirg2hm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_aegirg1nm">${chartGraph("Akkan, Lord of Death","Normal",1660,1680,aegirg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_aegirg2nm">${chartGraph("Aegir, the Oppressor","Normal",1660,1680,aegirg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
-    <!-- <div class="card" id="id_argeos_1680_1740">${chartGraph("Argeos","Normal",1680,1740,argeos,{classHighlight},{arkPassiveStatus},{width})}</div> -->
-    <!-- <div class="card" id="id_argeos_1640_1679">${chartGraph("Argeos","Normal",1640,1679,argeos,{classHighlight},{arkPassiveStatus},{width})}</div> -->
+    <div class="card" id="id_argeos_1680_1740">${chartGraph("Argeos","Normal",1680,1740,argeos,{classHighlight},{arkPassiveStatus},{width})}</div>
+    <div class="card" id="id_argeos_1640_1679">${chartGraph("Argeos","Normal",1640,1679,argeos,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_behemothg1nm">${chartGraph("Behemoth, the Storm Commander","Normal",1680,1740,behemothg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_behemothg2nm">${chartGraph("Behemoth, Cruel Storm Slayer","Normal",1680,1740,behemothg2nm,{classHighlight},{arkPassiveStatus},{width})}</div>
     <div class="card" id="id_behemothg1nm">${chartGraph("Behemoth, the Storm Commander","Normal",1620,1680,behemothg1nm,{classHighlight},{arkPassiveStatus},{width})}</div>
@@ -339,8 +396,8 @@ const encounterSelect = Inputs.select(
     .filter(aq.escape((d) => d.gearScore >= minilevel && d.gearScore <= maxilevel))
     .filter(aq.escape((d) => (arkPassivesValue != "All" ? d.arkPsvActv == arkPassivesValue : true)))
 
-    const logsCount = data.numRows()
-    ;
+    const logsCount = data.numRows();
+    const idRecent = d3.max(data.array("raidId"));
 
     const summary = data
     .groupby("spec")
@@ -729,7 +786,7 @@ return acc;
       )
     .attr("text-anchor", "middle")
     .attr("font-family", "var(--sans-serif)")
-    .attr("font-size", "14px")
+    .attr("font-size", "12px")
     .attr("fill", "var(--theme-foreground)")
     .text(`Data: ${logsCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`);
 
@@ -737,13 +794,37 @@ return acc;
     .append("text")
     .attr(
       "transform",
-      `translate(${width-(83/2)}, 160)`
+      `translate(${width-(83/2)}, 155)`
       )
     .attr("text-anchor", "middle")
     .attr("font-family", "var(--sans-serif)")
-    .attr("font-size", "14px")
+    .attr("font-size", "12px")
     .attr("fill", "var(--theme-foreground)")
     .text(`${minilevel}-${maxilevel}`);
+
+    svg
+    .append("text")
+    .attr(
+      "transform",
+      `translate(${width-(83/2)}, 170)`
+      )
+    .attr("text-anchor", "middle")
+    .attr("font-family", "var(--sans-serif)")
+    .attr("font-size", "12px")
+    .attr("fill", "var(--theme-foreground)")
+    .text(`Latest Raid ID:`);
+
+    svg
+    .append("text")
+    .attr(
+      "transform",
+      `translate(${width-(83/2)}, 185)`
+      )
+    .attr("text-anchor", "middle")
+    .attr("font-family", "var(--sans-serif)")
+    .attr("font-size", "12px")
+    .attr("fill", "var(--theme-foreground)")
+    .text(`${idRecent.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`);
 
 
     svg.append("svg:image")
