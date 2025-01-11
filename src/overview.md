@@ -122,7 +122,8 @@ describe.push(...await FileAttachment ("./data/data_EchidnaG2_02.json").csv({"ty
 // describe.push(...await FileAttachment ("./data/data_thaemineg1.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg2.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_thaemineg3.json").csv({"typed": true}));
-describe.push(...await FileAttachment ("./data/data_thaemineg4.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_01.json").csv({"typed": true}));
+describe.push(...await FileAttachment ("./data/data_ThaemineG2_02.json").csv({"typed": true}));
 // describe.push(...await FileAttachment ("./data/data_veskal.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_VoldisG1_01.json").csv({"typed": true}));
 describe.push(...await FileAttachment ("./data/data_VoldisG1_02.json").csv({"typed": true}));
