@@ -41,6 +41,7 @@ class Config(object):
                         "Massiverack - NAE", "Dancingbeauty - NAE", "Purevanity - NAE", "Massivesummons - NAE", "Massivescythe - NAE",
                         "Holopscion - NAE", "Beschworung - NAE", "Drancia - NAE", "Soryu - NAE", "Tolerate - NAE", "Depend - NAE",
                         "Strongsneeze - NAE", "Elsiempresucio - NAE", "Timetorarararaid - NAE", "Elziemprezusio - NAE",
+                        "Pyrizz - EUC",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
