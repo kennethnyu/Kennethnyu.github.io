@@ -42,6 +42,9 @@ class Config(object):
                         "Holopscion - NAE", "Beschworung - NAE", "Drancia - NAE", "Soryu - NAE", "Tolerate - NAE", "Depend - NAE",
                         "Strongsneeze - NAE", "Elsiempresucio - NAE", "Timetorarararaid - NAE", "Elziemprezusio - NAE",
                         "Pyrizz - EUC",
+                        "Jqua - NAW", "Auqj - NAW", "Jquaaaaaaaa - NAW", "Jaaaqua - NAW", "Jenesequa - NAW",
+                        "Dragonslinger - NAE", "Dragonsouls - NAE", "Paldragon - NAE", "Dragonpistol - NAE", "Dragunslinger - NAE", "Dragoncana - NAE",
+                        "Tianru - NAE", "Tianwen - NAE", "Tianhua - NAE", "Tianluo - NAE", "Tianyao - NAE",
                          ]
         # Spec to color dictionary
         self.spec_to_color={"Berserker Technique":"#EE2E48","Mayhem":"#EE2E48",
