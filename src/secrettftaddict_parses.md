@@ -41,6 +41,11 @@ allData.push(...await FileAttachment ("./data/secret_aegirg2.json").csv({"typed"
 
 </style>
 
+```js
+FileAttachment("./data/cards/announcement.png").image()
+```
+
+
 <div>
   <div class="card" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">${search}</div>
 </div>

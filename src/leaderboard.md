@@ -37,6 +37,10 @@ theme: [dashboard, midnight]
 	<div class="card" style="display: flex;flex-direction: column">${Inputs.table(searchValue, {rows: 26})}</div>
 </div>
 
+```js
+FileAttachment("./data/cards/announcement.png").image()
+```
+
 
 
 ```js

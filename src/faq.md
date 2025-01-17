@@ -31,6 +31,11 @@ theme: [dashboard, midnight]
 
 </style>
 
+```js
+FileAttachment("./data/cards/announcement.png").image()
+```
+
+
 <div >
 	<div class="card" style="display: flex;flex-direction: column; text-align: center;">
 		<div style="color: #c4ffda; font-weight: bolder;">Q: When is the data updated?</div><br>

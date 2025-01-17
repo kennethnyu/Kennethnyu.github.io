@@ -72,6 +72,11 @@ theme: [dashboard, midnight]
 
 </style>
 
+```js
+FileAttachment("./data/cards/announcement.png").image()
+```
+
+
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;" id="observablehq-header">
 
   <div>${classSelect}</div>

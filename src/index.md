@@ -31,6 +31,10 @@ theme: [dashboard, midnight]
 
 </style>
 
+```js
+FileAttachment("./data/cards/announcement.png").image()
+```
+
 <div >
 	<div class="card" style="display: flex;flex-direction: column">${resize((width) => dailyLogs({width}))}</div>
 	<div class="card" style="display: flex;flex-direction: column">${resize((width) => gsDistrib({width}))}</div>
